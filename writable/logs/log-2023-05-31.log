@@ -1,0 +1,564 @@
+ERROR - 2023-05-31 22:13:06 --> mysqli_sql_exception: Column 'nombre' in field list is ambiguous in C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `nombre`...', 0)
+#1 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nombre`...')
+#2 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nombre`...')
+#3 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `nombre`...', Array, false)
+#4 C:\xampp\htdocs\proyecto_munoz_leandro\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_munoz_leandro\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_munoz_leandro\app\Controllers\ProductoController.php(25): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(934): App\Controllers\ProductoController->index()
+#8 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#9 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_munoz_leandro\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-31 22:13:06 --> Column 'nombre' in field list is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `nombre`
+FROM `subclasificacion`
+JOIN `clasificacion` ON `clasif_id` = `clasificacion`.`id_clasificacion`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `nombre`
+FROM `subclasificacion`
+JOIN `clasificacion` ON `clasif_id` = `clasificacion`.`id_clasificacion`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `nombre`
+FROM `subclasificacion`
+JOIN `clasificacion` ON `clasif_id` = `clasificacion`.`id_clasificacion`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `nombre`
+FROM `subclasificacion`
+JOIN `clasificacion` ON `clasif_id` = `clasificacion`.`id_clasificacion`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\ProductoController.php(25): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 22:16:02 --> mysqli_sql_exception: Table 'bd_munoz_leandro.clasificaciones' doesn't exist in C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_munoz_leandro\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_munoz_leandro\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_munoz_leandro\app\Controllers\ProductoController.php(25): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(934): App\Controllers\ProductoController->index()
+#8 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#9 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_munoz_leandro\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-31 22:16:02 --> Table 'bd_munoz_leandro.clasificaciones' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `subclasificacion`
+JOIN `clasificaciones` ON `clasif_id` = `clasificacion`.`id_clasificacion`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `subclasificacion`
+JOIN `clasificaciones` ON `clasif_id` = `clasificacion`.`id_clasificacion`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `subclasificacion`
+JOIN `clasificaciones` ON `clasif_id` = `clasificacion`.`id_clasificacion`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `subclasificacion`
+JOIN `clasificaciones` ON `clasif_id` = `clasificacion`.`id_clasificacion`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\ProductoController.php(25): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 22:16:37 --> mysqli_sql_exception: Unknown column 'id_clasificacion' in 'from clause' in C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_munoz_leandro\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_munoz_leandro\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_munoz_leandro\app\Controllers\ProductoController.php(25): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(934): App\Controllers\ProductoController->index()
+#8 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#9 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_munoz_leandro\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-31 22:16:37 --> Unknown column 'id_clasificacion' in 'from clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `subclasificacion`
+JOIN `clasificacion` USING (`id_clasificacion`)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `subclasificacion`
+JOIN `clasificacion` USING (`id_clasificacion`)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `subclasificacion`
+JOIN `clasificacion` USING (`id_clasificacion`)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `subclasificacion`
+JOIN `clasificacion` USING (`id_clasificacion`)', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\ProductoController.php(25): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 22:16:50 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::join(), 1 passed in C:\xampp\htdocs\proyecto_munoz_leandro\system\Model.php on line 840 and at least 2 expected
+in SYSTEMPATH\Database\BaseBuilder.php on line 617.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->join('clasificacion')
+ 2 APPPATH\Controllers\ProductoController.php(25): CodeIgniter\Model->__call('join', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 22:17:12 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`id_clasificacion`' at line 3 in C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_munoz_leandro\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_munoz_leandro\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_munoz_leandro\app\Controllers\ProductoController.php(25): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(934): App\Controllers\ProductoController->index()
+#8 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#9 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_munoz_leandro\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-31 22:17:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`id_clasificacion`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `subclasificacion`
+JOIN `clasificacion` ON `clasif_id` =`=` `id_clasificacion`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `subclasificacion`
+JOIN `clasificacion` ON `clasif_id` =`=` `id_clasificacion`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `subclasificacion`
+JOIN `clasificacion` ON `clasif_id` =`=` `id_clasificacion`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `subclasificacion`
+JOIN `clasificacion` ON `clasif_id` =`=` `id_clasificacion`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\ProductoController.php(25): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 22:35:02 --> CodeIgniter\Database\BaseBuilder::join(): Argument #1 ($table) must be of type string, array given, called in C:\xampp\htdocs\proyecto_munoz_leandro\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 617.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->join([...], 'clasif_id=id_clasificacion')
+ 2 APPPATH\Controllers\ProductoController.php(26): CodeIgniter\Model->__call('join', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 22:35:58 --> CodeIgniter\Database\BaseBuilder::join(): Argument #1 ($table) must be of type string, array given, called in C:\xampp\htdocs\proyecto_munoz_leandro\system\Model.php on line 840
+in SYSTEMPATH\Database\BaseBuilder.php on line 617.
+ 1 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->join([...], 'clasif_id=id_clasificacion')
+ 2 APPPATH\Controllers\ProductoController.php(27): CodeIgniter\Model->__call('join', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 22:39:54 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getResults()
+in APPPATH\Controllers\ProductoController.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 22:40:22 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::asArray()
+in APPPATH\Controllers\ProductoController.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 22:42:59 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OUTER JOIN `clasificacion` ON `subclasificacion`.`clasif_id`=`clasificacion`....' at line 3 in C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_munoz_leandro\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_munoz_leandro\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_munoz_leandro\app\Controllers\ProductoController.php(29): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(934): App\Controllers\ProductoController->index()
+#8 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#9 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_munoz_leandro\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-31 22:42:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OUTER JOIN `clasificacion` ON `subclasificacion`.`clasif_id`=`clasificacion`....' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `subclasificacion`
+OUTER JOIN `clasificacion` ON `subclasificacion`.`clasif_id`=`clasificacion`.`id_clasificacion`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `subclasificacion`
+OUTER JOIN `clasificacion` ON `subclasificacion`.`clasif_id`=`clasificacion`.`id_clasificacion`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `subclasificacion`
+OUTER JOIN `clasificacion` ON `subclasificacion`.`clasif_id`=`clasificacion`.`id_clasificacion`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `subclasificacion`
+OUTER JOIN `clasificacion` ON `subclasificacion`.`clasif_id`=`clasificacion`.`id_clasificacion`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\ProductoController.php(29): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 22:49:52 --> mysqli_sql_exception: Table 'clasificacion.nombre,' doesn't exist in C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `subclas...', 0)
+#1 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `subclas...')
+#2 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `subclas...')
+#3 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `subclas...', Array, false)
+#4 C:\xampp\htdocs\proyecto_munoz_leandro\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_munoz_leandro\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_munoz_leandro\app\Controllers\ProductoController.php(30): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(934): App\Controllers\ProductoController->index()
+#8 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#9 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_munoz_leandro\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-31 22:49:52 --> Table 'clasificacion.nombre,' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `subclasificacion`.`nombre`, `clasificacion`.`nombre`
+FROM `subclasificacion`
+JOIN `clasificacion`.`nombre,` ON `subclasificacion`.`clasif_id`=`clasificacion`.`id_clasificacion`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `subclasificacion`.`nombre`, `clasificacion`.`nombre`
+FROM `subclasificacion`
+JOIN `clasificacion`.`nombre,` ON `subclasificacion`.`clasif_id`=`clasificacion`.`id_clasificacion`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `subclasificacion`.`nombre`, `clasificacion`.`nombre`
+FROM `subclasificacion`
+JOIN `clasificacion`.`nombre,` ON `subclasificacion`.`clasif_id`=`clasificacion`.`id_clasificacion`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `subclasificacion`.`nombre`, `clasificacion`.`nombre`
+FROM `subclasificacion`
+JOIN `clasificacion`.`nombre,` ON `subclasificacion`.`clasif_id`=`clasificacion`.`id_clasificacion`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\ProductoController.php(30): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 22:52:30 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id_clasificacion`)' at line 3 in C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_munoz_leandro\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_munoz_leandro\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_munoz_leandro\app\Controllers\ProductoController.php(29): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(934): App\Controllers\ProductoController->index()
+#8 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#9 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_munoz_leandro\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-31 22:52:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id_clasificacion`)' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `subclasificacion`
+JOIN `clasificacion` USING (`clasificacion`.`id_clasificacion`)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `subclasificacion`
+JOIN `clasificacion` USING (`clasificacion`.`id_clasificacion`)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `subclasificacion`
+JOIN `clasificacion` USING (`clasificacion`.`id_clasificacion`)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `subclasificacion`
+JOIN `clasificacion` USING (`clasificacion`.`id_clasificacion`)', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\ProductoController.php(29): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 22:55:04 --> mysqli_sql_exception: Unknown column 'SELECT * FROM subclasificacion JOIN clasificacion ON' in 'field list' in C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `SELECT ...', 0)
+#1 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT ...')
+#2 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT ...')
+#3 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT ...', Array, false)
+#4 C:\xampp\htdocs\proyecto_munoz_leandro\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_munoz_leandro\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_munoz_leandro\app\Controllers\ProductoController.php(28): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(934): App\Controllers\ProductoController->index()
+#8 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#9 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_munoz_leandro\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-31 22:55:04 --> Unknown column 'SELECT * FROM subclasificacion JOIN clasificacion ON' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `SELECT * FROM subclasificacion JOIN clasificacion ON` `clasif_id=id_clasificacion`
+FROM `subclasificacion`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT * FROM subclasificacion JOIN clasificacion ON` `clasif_id=id_clasificacion`
+FROM `subclasificacion`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT * FROM subclasificacion JOIN clasificacion ON` `clasif_id=id_clasificacion`
+FROM `subclasificacion`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT * FROM subclasificacion JOIN clasificacion ON` `clasif_id=id_clasificacion`
+FROM `subclasificacion`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\ProductoController.php(28): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 22:55:10 --> mysqli_sql_exception: Unknown column 'SELECT * FROM subclasificacion JOIN clasificacion ON' in 'field list' in C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `SELECT ...', 0)
+#1 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT ...')
+#2 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT ...')
+#3 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT ...', Array, false)
+#4 C:\xampp\htdocs\proyecto_munoz_leandro\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_munoz_leandro\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_munoz_leandro\app\Controllers\ProductoController.php(28): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(934): App\Controllers\ProductoController->index()
+#8 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#9 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_munoz_leandro\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-31 22:55:10 --> Unknown column 'SELECT * FROM subclasificacion JOIN clasificacion ON' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `SELECT * FROM subclasificacion JOIN clasificacion ON` `clasif_id=id_clasificacion`
+FROM `subclasificacion`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT * FROM subclasificacion JOIN clasificacion ON` `clasif_id=id_clasificacion`
+FROM `subclasificacion`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT * FROM subclasificacion JOIN clasificacion ON` `clasif_id=id_clasificacion`
+FROM `subclasificacion`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT * FROM subclasificacion JOIN clasificacion ON` `clasif_id=id_clasificacion`
+FROM `subclasificacion`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\ProductoController.php(28): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 22:55:43 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT * FROM subclasificacion JOIN clasificacion ON clasif_id=id_clasificaci...' at line 1 in C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT SELECT *...', 0)
+#1 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SELECT *...')
+#2 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SELECT *...')
+#3 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT SELECT *...', Array, false)
+#4 C:\xampp\htdocs\proyecto_munoz_leandro\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_munoz_leandro\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_munoz_leandro\app\Controllers\ProductoController.php(28): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(934): App\Controllers\ProductoController->index()
+#8 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#9 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_munoz_leandro\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-31 22:55:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT * FROM subclasificacion JOIN clasificacion ON clasif_id=id_clasificaci...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT SELECT * FROM subclasificacion JOIN clasificacion ON clasif_id=id_clasificacion
+FROM `subclasificacion`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SELECT * FROM subclasificacion JOIN clasificacion ON clasif_id=id_clasificacion
+FROM `subclasificacion`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SELECT * FROM subclasificacion JOIN clasificacion ON clasif_id=id_clasificacion
+FROM `subclasificacion`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT SELECT * FROM subclasificacion JOIN clasificacion ON clasif_id=id_clasificacion
+FROM `subclasificacion`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\ProductoController.php(28): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 22:56:13 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT * FROM `subclasificacion` JOIN `clasificacion` ON `clasif_id`=`id_clas...' at line 1 in C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT SELECT *...', 0)
+#1 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SELECT *...')
+#2 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SELECT *...')
+#3 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT SELECT *...', Array, false)
+#4 C:\xampp\htdocs\proyecto_munoz_leandro\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_munoz_leandro\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_munoz_leandro\app\Controllers\ProductoController.php(28): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(934): App\Controllers\ProductoController->index()
+#8 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#9 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_munoz_leandro\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-31 22:56:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT * FROM `subclasificacion` JOIN `clasificacion` ON `clasif_id`=`id_clas...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT SELECT * FROM `subclasificacion` JOIN `clasificacion` ON `clasif_id`=`id_clasificacion`
+FROM `subclasificacion`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SELECT * FROM `subclasificacion` JOIN `clasificacion` ON `clasif_id`=`id_clasificacion`
+FROM `subclasificacion`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SELECT * FROM `subclasificacion` JOIN `clasificacion` ON `clasif_id`=`id_clasificacion`
+FROM `subclasificacion`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT SELECT * FROM `subclasificacion` JOIN `clasificacion` ON `clasif_id`=`id_clasificacion`
+FROM `subclasificacion`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\ProductoController.php(28): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 22:57:19 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'JOIN `clasificacion` ON `clasif_id`=`id_clasificacion`
+FROM `subclasificacion`' at line 1 in C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT (SELECT ...', 0)
+#1 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (SELECT ...')
+#2 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (SELECT ...')
+#3 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT (SELECT ...', Array, false)
+#4 C:\xampp\htdocs\proyecto_munoz_leandro\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_munoz_leandro\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_munoz_leandro\app\Controllers\ProductoController.php(28): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(934): App\Controllers\ProductoController->index()
+#8 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#9 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_munoz_leandro\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-31 22:57:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'JOIN `clasificacion` ON `clasif_id`=`id_clasificacion`
+FROM `subclasificacion`' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT (SELECT * FROM `subclasificacion`) JOIN `clasificacion` ON `clasif_id`=`id_clasificacion`
+FROM `subclasificacion`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (SELECT * FROM `subclasificacion`) JOIN `clasificacion` ON `clasif_id`=`id_clasificacion`
+FROM `subclasificacion`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (SELECT * FROM `subclasificacion`) JOIN `clasificacion` ON `clasif_id`=`id_clasificacion`
+FROM `subclasificacion`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT (SELECT * FROM `subclasificacion`) JOIN `clasificacion` ON `clasif_id`=`id_clasificacion`
+FROM `subclasificacion`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\ProductoController.php(28): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 22:57:35 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `subclasificacion`' at line 2 in C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT (SELECT ...', 0)
+#1 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (SELECT ...')
+#2 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (SELECT ...')
+#3 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT (SELECT ...', Array, false)
+#4 C:\xampp\htdocs\proyecto_munoz_leandro\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_munoz_leandro\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_munoz_leandro\app\Controllers\ProductoController.php(28): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(934): App\Controllers\ProductoController->index()
+#8 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#9 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_munoz_leandro\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-31 22:57:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM `subclasificacion`' at line 2
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT (SELECT *) FROM `subclasificacion` JOIN `clasificacion` ON `clasif_id`=`id_clasificacion`
+FROM `subclasificacion`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT (SELECT *) FROM `subclasificacion` JOIN `clasificacion` ON `clasif_id`=`id_clasificacion`
+FROM `subclasificacion`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT (SELECT *) FROM `subclasificacion` JOIN `clasificacion` ON `clasif_id`=`id_clasificacion`
+FROM `subclasificacion`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT (SELECT *) FROM `subclasificacion` JOIN `clasificacion` ON `clasif_id`=`id_clasificacion`
+FROM `subclasificacion`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\ProductoController.php(28): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-31 22:58:07 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT `*` FROM `subclasificacion` JOIN `clasificacion` ON `clasif_id`=`id_cl...' at line 1 in C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT SELECT `...', 0)
+#1 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SELECT `...')
+#2 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SELECT `...')
+#3 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT SELECT `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_munoz_leandro\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_munoz_leandro\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_munoz_leandro\app\Controllers\ProductoController.php(28): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(934): App\Controllers\ProductoController->index()
+#8 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#9 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_munoz_leandro\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-31 22:58:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT `*` FROM `subclasificacion` JOIN `clasificacion` ON `clasif_id`=`id_cl...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT SELECT `*` FROM `subclasificacion` JOIN `clasificacion` ON `clasif_id`=`id_clasificacion`
+FROM `subclasificacion`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SELECT `*` FROM `subclasificacion` JOIN `clasificacion` ON `clasif_id`=`id_clasificacion`
+FROM `subclasificacion`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SELECT `*` FROM `subclasificacion` JOIN `clasificacion` ON `clasif_id`=`id_clasificacion`
+FROM `subclasificacion`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT SELECT `*` FROM `subclasificacion` JOIN `clasificacion` ON `clasif_id`=`id_clasificacion`
+FROM `subclasificacion`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\ProductoController.php(28): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 23:01:11 --> Call to undefined method App\Models\SubclasificacionModel::getCompiledData
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\ProductoController.php(30): CodeIgniter\Model->__call('getCompiledData', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 23:01:31 --> You cannot use "getCompiledSelect()" in "App\Models\SubclasificacionModel". This is a method of the Query Builder Class.
+in SYSTEMPATH\Model.php on line 858.
+ 1 SYSTEMPATH\Model.php(858): CodeIgniter\Exceptions\ModelException::forMethodNotAvailable('App\\Models\\SubclasificacionModel', 'getCompiledSelect()')
+ 2 SYSTEMPATH\Model.php(838): CodeIgniter\Model->checkBuilderMethod('getCompiledSelect')
+ 3 APPPATH\Controllers\ProductoController.php(30): CodeIgniter\Model->__call('getCompiledSelect', [])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 23:18:20 --> Call to a member function showError() on array
+in APPPATH\Views\pages\usuario\registro.php on line 9.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/usuario/registro', [], true)
+ 4 APPPATH\Controllers\UserController.php(77): view('pages/usuario/registro', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->nuevoUsuario()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 23:21:11 --> Array callback must have exactly two elements
+in APPPATH\Views\pages\usuario\registro.php on line 9.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/usuario/registro', [], true)
+ 4 APPPATH\Controllers\UserController.php(77): view('pages/usuario/registro', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->nuevoUsuario()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 23:56:01 --> Undefined array key "pass"
+in APPPATH\Controllers\UserController.php on line 116.
+ 1 APPPATH\Controllers\UserController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pass"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\UserController.php', 116)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-31 23:56:45 --> Cannot use object of type CodeIgniter\Validation\Validation as array
+in APPPATH\Controllers\UserController.php on line 124.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-31 23:57:19 --> [DEPRECATED] Creation of dynamic property CodeIgniter\Validation\Validation::$pass is deprecated in APPPATH\Controllers\UserController.php on line 124.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-31 23:57:23 --> [DEPRECATED] Creation of dynamic property CodeIgniter\Validation\Validation::$pass is deprecated in APPPATH\Controllers\UserController.php on line 124.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2023-05-31 23:57:34 --> [DEPRECATED] Creation of dynamic property CodeIgniter\Validation\Validation::$pass is deprecated in APPPATH\Controllers\UserController.php on line 124.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

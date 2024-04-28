@@ -1,0 +1,12 @@
+CRITICAL - 2023-05-10 00:52:02 --> The route for "principal" cannot be found.
+in SYSTEMPATH\Helpers\url_helper.php on line 599.
+ 1 SYSTEMPATH\Helpers\url_helper.php(599): CodeIgniter\Router\Exceptions\RouterException::forInvalidRoute('principal')
+ 2 APPPATH\Views\templates\navbar.php(12): url_to('principal')
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/navbar', [], true)
+ 6 APPPATH\Controllers\Home.php(71): view('templates/navbar', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->comercializacion()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

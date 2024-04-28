@@ -1,0 +1,481 @@
+CRITICAL - 2023-05-18 00:25:54 --> Invalid file: "pages/registrar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/registrar.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/registrar', [], true)
+ 3 APPPATH\Controllers\UserController.php(55): view('pages/registrar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->nuevoUsuario()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 00:26:15 --> Undefined variable $errores
+in APPPATH\Views\pages\registro.php on line 62.
+ 1 APPPATH\Views\pages\registro.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $errores', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\registro.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\registro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/registro', [], true)
+ 5 APPPATH\Controllers\UserController.php(55): view('pages/registro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->nuevoUsuario()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 00:31:30 --> Object of class CodeIgniter\Validation\Validation could not be converted to string
+in APPPATH\Views\pages\registro.php on line 62.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/registro', [], true)
+ 4 APPPATH\Controllers\UserController.php(59): view('pages/registro', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->nuevoUsuario()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 00:36:35 --> Undefined property: CodeIgniter\Validation\Validation::$listErrors
+in APPPATH\Views\pages\registro.php on line 63.
+ 1 APPPATH\Views\pages\registro.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Validation\\Validation::$listErrors', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\registro.php', 63)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\registro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/registro', [], true)
+ 5 APPPATH\Controllers\UserController.php(60): view('pages/registro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->nuevoUsuario()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 00:38:08 --> Undefined property: CodeIgniter\Validation\Validation::$getErrors
+in APPPATH\Views\pages\registro.php on line 63.
+ 1 APPPATH\Views\pages\registro.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Validation\\Validation::$getErrors', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\registro.php', 63)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\registro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/registro', [], true)
+ 5 APPPATH\Controllers\UserController.php(60): view('pages/registro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->nuevoUsuario()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 00:38:50 --> Undefined variable $validation
+in APPPATH\Views\pages\registro.php on line 63.
+ 1 APPPATH\Views\pages\registro.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\registro.php', 63)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\registro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/registro', [], true)
+ 5 APPPATH\Controllers\UserController.php(60): view('pages/registro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->nuevoUsuario()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 00:39:12 --> Array to string conversion
+in APPPATH\Views\pages\registro.php on line 63.
+ 1 APPPATH\Views\pages\registro.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\registro.php', 63)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\registro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/registro', [], true)
+ 5 APPPATH\Controllers\UserController.php(60): view('pages/registro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->nuevoUsuario()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 00:44:32 --> Call to a member function showError() on array
+in APPPATH\Views\pages\registro.php on line 23.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/registro', [], true)
+ 4 APPPATH\Controllers\UserController.php(22): view('pages/registro', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->registrar()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 00:44:44 --> Call to a member function showError() on array
+in APPPATH\Views\pages\registro.php on line 23.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/registro', [], true)
+ 4 APPPATH\Controllers\UserController.php(22): view('pages/registro', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->registrar()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 00:45:42 --> Call to a member function showError() on array
+in APPPATH\Views\pages\registro.php on line 23.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/registro', [], true)
+ 4 APPPATH\Controllers\UserController.php(22): view('pages/registro', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->registrar()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 00:45:57 --> Call to a member function showError() on array
+in APPPATH\Views\pages\registro.php on line 23.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/registro', [], true)
+ 4 APPPATH\Controllers\UserController.php(22): view('pages/registro', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->registrar()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 00:46:06 --> Call to a member function showError() on array
+in APPPATH\Views\pages\registro.php on line 23.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/registro', [], true)
+ 4 APPPATH\Controllers\UserController.php(22): view('pages/registro', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->registrar()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 00:46:30 --> Call to a member function showError() on array
+in APPPATH\Views\pages\registro.php on line 23.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/registro', [], true)
+ 4 APPPATH\Controllers\UserController.php(22): view('pages/registro', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->registrar()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 00:46:45 --> Call to a member function showError() on array
+in APPPATH\Views\pages\registro.php on line 23.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/registro', [], true)
+ 4 APPPATH\Controllers\UserController.php(22): view('pages/registro', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->registrar()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 00:48:20 --> Call to a member function showError() on array
+in APPPATH\Views\pages\registro.php on line 24.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/registro', [], true)
+ 4 APPPATH\Controllers\UserController.php(22): view('pages/registro', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->registrar()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 00:48:27 --> Call to a member function listErrors() on array
+in APPPATH\Views\pages\registro.php on line 64.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/registro', [], true)
+ 4 APPPATH\Controllers\UserController.php(22): view('pages/registro', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->registrar()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 01:02:36 --> CodeIgniter\Validation\StrictRules\Rules::is_unique(): Argument #2 ($field) must be of type string, null given, called in C:\xampp\htdocs\proyecto_munoz_leandro\system\Validation\Validation.php on line 311
+in SYSTEMPATH\Validation\StrictRules\Rules.php on line 179.
+ 1 SYSTEMPATH\Validation\Validation.php(311): CodeIgniter\Validation\StrictRules\Rules->is_unique('LeanMunoz', null)
+ 2 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', 'LeanMunoz', [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\UserController.php(44): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->nuevoUsuario()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 01:03:23 --> "is_unique(usuario)" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 320.
+ 1 SYSTEMPATH\Validation\Validation.php(320): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('is_unique(usuario)')
+ 2 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', 'LeanMunoz', [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\UserController.php(44): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->nuevoUsuario()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 01:03:35 --> "is_unique(usuarios, usuario)" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 320.
+ 1 SYSTEMPATH\Validation\Validation.php(320): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('is_unique(usuarios, usuario)')
+ 2 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', 'LeanMunoz', [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\UserController.php(44): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->nuevoUsuario()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-18 01:03:55 --> mysqli_sql_exception: Unknown column 'usuarios' in 'where clause' in C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_munoz_leandro\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_munoz_leandro\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('LeanMunoz', 'usuarios', Array, NULL, 'usuario')
+#6 C:\xampp\htdocs\proyecto_munoz_leandro\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', 'LeanMunoz', Array, Array)
+#7 C:\xampp\htdocs\proyecto_munoz_leandro\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\proyecto_munoz_leandro\app\Controllers\UserController.php(44): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(934): App\Controllers\UserController->nuevoUsuario()
+#10 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#11 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\proyecto_munoz_leandro\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-05-18 01:03:55 --> Unknown column 'usuarios' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1
+FROM `usuarios`
+WHERE `usuarios` = \'LeanMunoz\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `usuarios`
+WHERE `usuarios` = \'LeanMunoz\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `usuarios`
+WHERE `usuarios` = \'LeanMunoz\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `usuarios`
+WHERE `usuarios` = :usuarios:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('LeanMunoz', 'usuarios', [...], null, 'usuario')
+ 7 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', 'LeanMunoz', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\UserController.php(44): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->nuevoUsuario()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-18 01:04:06 --> mysqli_sql_exception: Table 'bd_munoz_leandro.usuario' doesn't exist in C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_munoz_leandro\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_munoz_leandro\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('LeanMunoz', 'usuario', Array, NULL, 'usuario')
+#6 C:\xampp\htdocs\proyecto_munoz_leandro\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', 'LeanMunoz', Array, Array)
+#7 C:\xampp\htdocs\proyecto_munoz_leandro\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\proyecto_munoz_leandro\app\Controllers\UserController.php(44): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(934): App\Controllers\UserController->nuevoUsuario()
+#10 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#11 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\proyecto_munoz_leandro\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-05-18 01:04:06 --> Table 'bd_munoz_leandro.usuario' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1
+FROM `usuario`
+WHERE `usuario` = \'LeanMunoz\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `usuario`
+WHERE `usuario` = \'LeanMunoz\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `usuario`
+WHERE `usuario` = \'LeanMunoz\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `usuario`
+WHERE `usuario` = :usuario:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('LeanMunoz', 'usuario', [...], null, 'usuario')
+ 7 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', 'LeanMunoz', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\UserController.php(44): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->nuevoUsuario()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-18 01:04:16 --> mysqli_sql_exception: Unknown column 'usuarios' in 'where clause' in C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_munoz_leandro\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_munoz_leandro\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('LeanMunoz', 'usuarios', Array, NULL, 'usuario')
+#6 C:\xampp\htdocs\proyecto_munoz_leandro\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', 'LeanMunoz', Array, Array)
+#7 C:\xampp\htdocs\proyecto_munoz_leandro\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\proyecto_munoz_leandro\app\Controllers\UserController.php(44): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(934): App\Controllers\UserController->nuevoUsuario()
+#10 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#11 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\proyecto_munoz_leandro\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-05-18 01:04:16 --> Unknown column 'usuarios' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1
+FROM `usuarios`
+WHERE `usuarios` = \'LeanMunoz\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `usuarios`
+WHERE `usuarios` = \'LeanMunoz\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `usuarios`
+WHERE `usuarios` = \'LeanMunoz\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `usuarios`
+WHERE `usuarios` = :usuarios:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('LeanMunoz', 'usuarios', [...], null, 'usuario')
+ 7 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', 'LeanMunoz', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\UserController.php(44): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->nuevoUsuario()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-18 01:04:36 --> mysqli_sql_exception: Unknown column 'usuarios' in 'where clause' in C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_munoz_leandro\system\Validation\StrictRules\Rules.php(147): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_munoz_leandro\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_not_unique('LeanMunoz', 'usuarios', Array, NULL, 'usuario')
+#6 C:\xampp\htdocs\proyecto_munoz_leandro\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', 'LeanMunoz', Array, Array)
+#7 C:\xampp\htdocs\proyecto_munoz_leandro\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\proyecto_munoz_leandro\app\Controllers\UserController.php(44): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(934): App\Controllers\UserController->nuevoUsuario()
+#10 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#11 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\proyecto_munoz_leandro\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-05-18 01:04:36 --> Unknown column 'usuarios' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1
+FROM `usuarios`
+WHERE `usuarios` = \'LeanMunoz\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `usuarios`
+WHERE `usuarios` = \'LeanMunoz\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `usuarios`
+WHERE `usuarios` = \'LeanMunoz\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `usuarios`
+WHERE `usuarios` = :usuarios:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(147): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_not_unique('LeanMunoz', 'usuarios', [...], null, 'usuario')
+ 7 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', 'LeanMunoz', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\UserController.php(44): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->nuevoUsuario()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-18 01:04:47 --> mysqli_sql_exception: Table 'bd_munoz_leandro.usuario' doesn't exist in C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_munoz_leandro\system\Validation\StrictRules\Rules.php(147): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_munoz_leandro\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_not_unique('LeanMunoz', 'usuario', Array, NULL, 'usuario')
+#6 C:\xampp\htdocs\proyecto_munoz_leandro\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', 'LeanMunoz', Array, Array)
+#7 C:\xampp\htdocs\proyecto_munoz_leandro\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\proyecto_munoz_leandro\app\Controllers\UserController.php(44): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(934): App\Controllers\UserController->nuevoUsuario()
+#10 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#11 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\proyecto_munoz_leandro\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-05-18 01:04:47 --> Table 'bd_munoz_leandro.usuario' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1
+FROM `usuario`
+WHERE `usuario` = \'LeanMunoz\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `usuario`
+WHERE `usuario` = \'LeanMunoz\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `usuario`
+WHERE `usuario` = \'LeanMunoz\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `usuario`
+WHERE `usuario` = :usuario:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(147): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_not_unique('LeanMunoz', 'usuario', [...], null, 'usuario')
+ 7 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', 'LeanMunoz', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\UserController.php(44): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->nuevoUsuario()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-18 01:04:54 --> mysqli_sql_exception: Unknown column 'usuarios' in 'where clause' in C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_munoz_leandro\system\Validation\StrictRules\Rules.php(147): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_munoz_leandro\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_not_unique('LeanMunoz', 'usuarios', Array, NULL, 'usuario')
+#6 C:\xampp\htdocs\proyecto_munoz_leandro\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', 'LeanMunoz', Array, Array)
+#7 C:\xampp\htdocs\proyecto_munoz_leandro\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\proyecto_munoz_leandro\app\Controllers\UserController.php(44): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(934): App\Controllers\UserController->nuevoUsuario()
+#10 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#11 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\proyecto_munoz_leandro\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-05-18 01:04:54 --> Unknown column 'usuarios' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1
+FROM `usuarios`
+WHERE `usuarios` = \'LeanMunoz\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `usuarios`
+WHERE `usuarios` = \'LeanMunoz\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `usuarios`
+WHERE `usuarios` = \'LeanMunoz\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `usuarios`
+WHERE `usuarios` = :usuarios:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(147): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_not_unique('LeanMunoz', 'usuarios', [...], null, 'usuario')
+ 7 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('usuario', 'usuario', 'LeanMunoz', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\UserController.php(44): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->nuevoUsuario()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 01:05:18 --> strpos(): Argument #3 ($offset) must be contained in argument #1 ($haystack)
+in SYSTEMPATH\Validation\Validation.php on line 812.
+ 1 SYSTEMPATH\Validation\Validation.php(812): strpos('required|is_not_unique[usuarios.usuario', '|', 40)
+ 2 SYSTEMPATH\Validation\Validation.php(140): CodeIgniter\Validation\Validation->splitRules([...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\UserController.php(44): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->nuevoUsuario()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 01:05:27 --> strpos(): Argument #3 ($offset) must be contained in argument #1 ($haystack)
+in SYSTEMPATH\Validation\Validation.php on line 812.
+ 1 SYSTEMPATH\Validation\Validation.php(812): strpos('required|is_unique[usuarios.usuario', '|', 36)
+ 2 SYSTEMPATH\Validation\Validation.php(140): CodeIgniter\Validation\Validation->splitRules([...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\UserController.php(44): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->nuevoUsuario()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-18 01:31:43 --> Invalid file: "pages/registro_existoso.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/registro_existoso.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/registro_existoso', [], true)
+ 3 APPPATH\Controllers\UserController.php(101): view('pages/registro_existoso', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->nuevoUsuario()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

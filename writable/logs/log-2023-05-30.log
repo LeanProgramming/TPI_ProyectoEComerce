@@ -1,0 +1,167 @@
+CRITICAL - 2023-05-30 22:20:19 --> Call to a member function getKey() on array
+in APPPATH\Controllers\CompraController.php on line 63.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CompraController->quitar_carrito('5')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompraController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 22:23:39 --> Trying to access array offset on value of type null
+in APPPATH\Views\templates\navbar2.php on line 115.
+ 1 APPPATH\Views\templates\navbar2.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar2.php', 115)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar2.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/navbar2', [], true)
+ 5 APPPATH\Controllers\Home.php(52): view('templates/navbar2')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 22:23:42 --> Trying to access array offset on value of type null
+in APPPATH\Views\templates\navbar2.php on line 115.
+ 1 APPPATH\Views\templates\navbar2.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar2.php', 115)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar2.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/navbar2', [], true)
+ 5 APPPATH\Controllers\Home.php(52): view('templates/navbar2')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 22:23:45 --> Trying to access array offset on value of type null
+in APPPATH\Views\templates\navbar2.php on line 115.
+ 1 APPPATH\Views\templates\navbar2.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar2.php', 115)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar2.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/navbar2', [], true)
+ 5 APPPATH\Controllers\Home.php(52): view('templates/navbar2')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 22:29:14 --> Trying to access array offset on value of type null
+in APPPATH\Views\templates\navbar2.php on line 115.
+ 1 APPPATH\Views\templates\navbar2.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar2.php', 115)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar2.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/navbar2', [], true)
+ 5 APPPATH\Controllers\Home.php(52): view('templates/navbar2')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 22:29:17 --> Trying to access array offset on value of type null
+in APPPATH\Views\templates\navbar2.php on line 115.
+ 1 APPPATH\Views\templates\navbar2.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar2.php', 115)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar2.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/navbar2', [], true)
+ 5 APPPATH\Controllers\Home.php(52): view('templates/navbar2')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 22:29:44 --> Trying to access array offset on value of type null
+in APPPATH\Views\templates\navbar2.php on line 115.
+ 1 APPPATH\Views\templates\navbar2.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar2.php', 115)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar2.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/navbar2', [], true)
+ 5 APPPATH\Controllers\Home.php(52): view('templates/navbar2')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 22:31:04 --> Undefined array key "carrito"
+in APPPATH\Views\templates\navbar2.php on line 114.
+ 1 APPPATH\Views\templates\navbar2.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "carrito"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar2.php', 114)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar2.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/navbar2', [], true)
+ 5 APPPATH\Controllers\Home.php(52): view('templates/navbar2')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 22:42:29 --> Undefined array key -1
+in APPPATH\Views\pages\tienda.php on line 44.
+ 1 APPPATH\Views\pages\tienda.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key -1', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\tienda.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\tienda.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/tienda', [], true)
+ 5 APPPATH\Controllers\TiendaController.php(48): view('pages/tienda')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 22:50:33 --> The route for "http://localhost/proyecto_munoz_leandro/tienda" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/proyecto_munoz_leandro/tienda')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\CompraController.php(36): redirect('http://localhost/proyecto_munoz_leandro/tienda')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CompraController->agregar_carrito('tienda', '1')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompraController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 22:51:11 --> The route for "http://localhost/proyecto_munoz_leandro/tienda" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/proyecto_munoz_leandro/tienda')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\CompraController.php(36): redirect('http://localhost/proyecto_munoz_leandro/tienda')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CompraController->agregar_carrito('tienda', '1')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompraController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 22:51:27 --> The route for "http://localhost/proyecto_munoz_leandro/tienda" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/proyecto_munoz_leandro/tienda')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\CompraController.php(36): redirect('http://localhost/proyecto_munoz_leandro/tienda')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CompraController->agregar_carrito('tienda', '1')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompraController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 22:52:54 --> Array callback must have exactly two elements
+in APPPATH\Views\pages\principal.php on line 88.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/principal', [], true)
+ 4 APPPATH\Controllers\Home.php(54): view('pages/principal')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 23:08:13 --> Too few arguments to function App\Controllers\CompraController::quitar_carrito(), 1 passed in C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php on line 934 and exactly 2 expected
+in APPPATH\Controllers\CompraController.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CompraController->quitar_carrito('principal')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompraController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 23:09:08 --> Too few arguments to function App\Controllers\CompraController::quitar_carrito(), 1 passed in C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php on line 934 and exactly 2 expected
+in APPPATH\Controllers\CompraController.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CompraController->quitar_carrito('principal')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompraController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 23:09:20 --> Too few arguments to function App\Controllers\CompraController::quitar_carrito(), 1 passed in C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php on line 934 and exactly 2 expected
+in APPPATH\Controllers\CompraController.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CompraController->quitar_carrito('principal')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompraController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 23:17:13 --> Undefined array key "carrito"
+in APPPATH\Views\templates\navbar2.php on line 61.
+ 1 APPPATH\Views\templates\navbar2.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "carrito"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar2.php', 61)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar2.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/navbar2', [], true)
+ 5 APPPATH\Controllers\TiendaController.php(46): view('templates/navbar2')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-30 23:50:32 --> Call to undefined method App\Models\SubclasificacionModel::db_query
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\ProductoController.php(25): CodeIgniter\Model->__call('db_query', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,132 @@
+CRITICAL - 2023-04-24 15:11:38 --> Undefined variable $data
+in APPPATH\Views\templates\navbar.php on line 157.
+ 1 APPPATH\Views\templates\navbar.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar.php', 157)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/navbar', [], true)
+ 5 APPPATH\Controllers\Home.php(11): view('templates/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-24 15:17:22 --> Undefined variable $data
+in APPPATH\Views\templates\navbar.php on line 157.
+ 1 APPPATH\Views\templates\navbar.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar.php', 157)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/navbar', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('templates/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->quienes_somos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-24 15:18:36 --> Undefined variable $ruta
+in APPPATH\Views\templates\navbar.php on line 157.
+ 1 APPPATH\Views\templates\navbar.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ruta', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar.php', 157)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/navbar', [], true)
+ 5 APPPATH\Controllers\Home.php(11): view('templates/navbar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-24 15:23:15 --> Array to string conversion
+in APPPATH\Views\templates\navbar.php on line 157.
+ 1 APPPATH\Views\templates\navbar.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar.php', 157)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/navbar', [], true)
+ 5 APPPATH\Controllers\Home.php(27): view('templates/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->quienes_somos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-24 15:23:17 --> Array to string conversion
+in APPPATH\Views\templates\navbar.php on line 157.
+ 1 APPPATH\Views\templates\navbar.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar.php', 157)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/navbar', [], true)
+ 5 APPPATH\Controllers\Home.php(27): view('templates/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->quienes_somos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-24 15:31:50 --> Undefined variable $ruta
+in APPPATH\Views\templates\navbar.php on line 157.
+ 1 APPPATH\Views\templates\navbar.php(157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ruta', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar.php', 157)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/navbar', [], true)
+ 5 APPPATH\Controllers\Home.php(29): view('templates/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->quienes_somos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-24 15:39:33 --> Undefined variable $url
+in APPPATH\Views\templates\navbar.php on line 164.
+ 1 APPPATH\Views\templates\navbar.php(164): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $url', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar.php', 164)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/navbar', [], true)
+ 5 APPPATH\Controllers\Home.php(29): view('templates/navbar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->quienes_somos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-24 15:40:03 --> Unsupported operand types: string + string
+in APPPATH\Views\templates\navbar.php on line 165.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/navbar', [], true)
+ 4 APPPATH\Controllers\Home.php(29): view('templates/navbar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->quienes_somos()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-24 17:06:58 --> Invalid file: "public/templates/header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('public/templates/header.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('public/templates/header', [], true)
+ 3 APPPATH\Controllers\Home.php(14): view('public/templates/header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-24 17:07:25 --> Invalid file: "munoz_leandro/public/templates/header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('munoz_leandro/public/templates/header.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('munoz_leandro/public/templates/header', [], true)
+ 3 APPPATH\Controllers\Home.php(14): view('munoz_leandro/public/templates/header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-24 17:08:29 --> Invalid file: "munoz_leandro/public/templates/header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('munoz_leandro/public/templates/header.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('munoz_leandro/public/templates/header', [], true)
+ 3 APPPATH\Controllers\Home.php(14): view('munoz_leandro/public/templates/header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-24 17:53:50 --> Invalid file: "../templates/header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../templates/header.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('../templates/header', [], true)
+ 3 APPPATH\Controllers\Home.php(14): view('../templates/header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-24 17:54:01 --> Invalid file: "/../templates/header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/../templates/header.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('/../templates/header', [], true)
+ 3 APPPATH\Controllers\Home.php(14): view('/../templates/header', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

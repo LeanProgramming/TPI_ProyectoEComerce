@@ -1,0 +1,900 @@
+CRITICAL - 2023-05-27 00:05:03 --> The route for "/agregar_producto" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('/agregar_producto')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\ProductoController.php(47): redirect('/agregar_producto')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->agregar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-27 00:16:21 --> mysqli_sql_exception: Unknown column 'clasif_if' in 'on clause' in C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_munoz_leandro\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_munoz_leandro\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_munoz_leandro\app\Controllers\ProductoController.php(21): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(934): App\Controllers\ProductoController->index()
+#8 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+#9 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_munoz_leandro\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-05-27 00:16:21 --> Unknown column 'clasif_if' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `subclasificacion`
+JOIN `clasificacion` ON `clasif_if` = `id_clasificacion`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `subclasificacion`
+JOIN `clasificacion` ON `clasif_if` = `id_clasificacion`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `subclasificacion`
+JOIN `clasificacion` ON `clasif_if` = `id_clasificacion`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `subclasificacion`
+JOIN `clasificacion` ON `clasif_if` = `id_clasificacion`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\ProductoController.php(21): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 00:43:32 --> Undefined array key "codigo_producto"
+in APPPATH\Views\pages\producto\agregarProducto.php on line 9.
+ 1 APPPATH\Views\pages\producto\agregarProducto.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "codigo_producto"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\producto\\agregarProducto.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\producto\\agregarProducto.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/producto/agregarProducto', [], true)
+ 5 APPPATH\Controllers\ProductoController.php(54): view('pages/producto/agregarProducto')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->agregar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 00:45:08 --> Undefined array key "codigo_producto"
+in APPPATH\Views\pages\producto\agregarProducto.php on line 9.
+ 1 APPPATH\Views\pages\producto\agregarProducto.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "codigo_producto"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\producto\\agregarProducto.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\producto\\agregarProducto.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/producto/agregarProducto', [], true)
+ 5 APPPATH\Controllers\ProductoController.php(54): view('pages/producto/agregarProducto')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->agregar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 00:48:15 --> Invalid max_size parameter: "imagen,51200], is_image[name"
+in SYSTEMPATH\Validation\FileRules.php on line 88.
+ 1 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\FileRules->max_size(null, 'imagen,51200], is_image[name', [...], null, 'imagen')
+ 2 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('imagen', 'imagen', null, [...], [...])
+ 3 SYSTEMPATH\BaseModel.php(1453): CodeIgniter\Validation\Validation->run([...], null, null)
+ 4 SYSTEMPATH\BaseModel.php(745): CodeIgniter\BaseModel->validate([...])
+ 5 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 6 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 7 APPPATH\Controllers\ProductoController.php(50): CodeIgniter\BaseModel->save([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->agregar()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 01:24:55 --> Call to undefined method App\Models\ProductoModel::isValid
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\ProductoController.php(50): CodeIgniter\Model->__call('isValid', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->agregar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 01:29:35 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\ProductoController.php(54): CodeIgniter\HTTP\Files\UploadedFile->move('assets/img/productos/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->agregar()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 01:33:20 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\ProductoController.php(54): CodeIgniter\HTTP\Files\UploadedFile->move('assets/img/productos/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->agregar()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 01:34:46 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\ProductoController.php(54): CodeIgniter\HTTP\Files\UploadedFile->move('assets/img/productos/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->agregar()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 01:34:48 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\ProductoController.php(54): CodeIgniter\HTTP\Files\UploadedFile->move('assets/img/productos/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->agregar()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 01:34:54 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\ProductoController.php(59): CodeIgniter\HTTP\Files\UploadedFile->move('assets/img/productos/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->agregar()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 01:35:03 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\ProductoController.php(59): CodeIgniter\HTTP\Files\UploadedFile->move('assets/img/productos/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->agregar()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 01:35:26 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\ProductoController.php(59): CodeIgniter\HTTP\Files\UploadedFile->move('assets/img/productos/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->agregar()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 02:35:59 --> Call to a member function save() on array
+in APPPATH\Controllers\ProductoController.php on line 91.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->dar_baja('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 02:36:33 --> Call to a member function save() on array
+in APPPATH\Controllers\ProductoController.php on line 91.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->dar_baja('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 02:36:37 --> Call to a member function save() on array
+in APPPATH\Controllers\ProductoController.php on line 91.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->dar_baja('1')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 02:53:13 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1680.
+ 1 SYSTEMPATH\BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\ProductoController.php(92): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->dar_baja('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 02:53:32 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1680.
+ 1 SYSTEMPATH\BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\ProductoController.php(92): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->dar_baja('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 02:59:18 --> Call to a member function save() on array
+in APPPATH\Controllers\ProductoController.php on line 92.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->dar_baja('8')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 03:00:51 --> Call to a member function save() on array
+in APPPATH\Controllers\ProductoController.php on line 92.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->dar_baja('8')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 03:05:43 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1680.
+ 1 SYSTEMPATH\BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\ProductoController.php(90): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->dar_baja('8')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 03:07:38 --> Call to a member function find() on null
+in APPPATH\Controllers\ProductoController.php on line 87.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->dar_baja('8')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 03:07:47 --> Call to a member function findAll() on null
+in APPPATH\Controllers\ProductoController.php on line 87.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->dar_baja('8')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 03:11:07 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1680.
+ 1 SYSTEMPATH\BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\ProductoController.php(92): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->dar_baja('8')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 03:11:23 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('8', [...])
+ 4 APPPATH\Controllers\ProductoController.php(92): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->dar_baja('8')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 03:11:28 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('1', [...])
+ 4 APPPATH\Controllers\ProductoController.php(92): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->dar_baja('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 03:11:30 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('1', [...])
+ 4 APPPATH\Controllers\ProductoController.php(92): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->dar_baja('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 03:11:55 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('1', [...])
+ 4 APPPATH\Controllers\ProductoController.php(92): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->dar_baja('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 03:11:59 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 SYSTEMPATH\BaseModel.php(690): CodeIgniter\Model->update('1', [...])
+ 4 APPPATH\Controllers\ProductoController.php(92): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->dar_baja('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 03:13:47 --> Call to a member function save() on array
+in APPPATH\Controllers\ProductoController.php on line 90.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->dar_baja('3')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 15:48:16 --> Cannot access offset of type string on string
+in APPPATH\Views\pages\principal.php on line 110.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/principal', [], true)
+ 4 APPPATH\Controllers\Home.php(53): view('pages/principal')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 15:50:09 --> Cannot access offset of type string on string
+in APPPATH\Views\pages\principal.php on line 110.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/principal', [], true)
+ 4 APPPATH\Controllers\Home.php(53): view('pages/principal')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 16:08:50 --> Call to undefined function PHPSTORM_META\map()
+in APPPATH\Views\pages\principal.php on line 107.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/principal', [], true)
+ 4 APPPATH\Controllers\Home.php(53): view('pages/principal')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 16:10:01 --> Call to undefined function PHPSTORM_META\map()
+in APPPATH\Views\pages\principal.php on line 107.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/principal', [], true)
+ 4 APPPATH\Controllers\Home.php(53): view('pages/principal')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 16:10:54 --> Trying to access array offset on value of type null
+in APPPATH\Views\pages\principal.php on line 122.
+ 1 APPPATH\Views\pages\principal.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\principal.php', 122)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\principal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/principal', [], true)
+ 5 APPPATH\Controllers\Home.php(53): view('pages/principal')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 16:32:30 --> array_push(): Argument #1 ($array) must be of type array, null given
+in APPPATH\Views\pages\principal.php on line 58.
+ 1 APPPATH\Views\pages\principal.php(58): array_push(null, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\principal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/principal', [], true)
+ 5 APPPATH\Controllers\Home.php(53): view('pages/principal')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 16:33:38 --> Undefined array key 1
+in APPPATH\Views\pages\principal.php on line 54.
+ 1 APPPATH\Views\pages\principal.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\principal.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\principal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/principal', [], true)
+ 5 APPPATH\Controllers\Home.php(53): view('pages/principal')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 16:37:20 --> Undefined array key 1
+in APPPATH\Views\pages\principal.php on line 54.
+ 1 APPPATH\Views\pages\principal.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\principal.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\principal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/principal', [], true)
+ 5 APPPATH\Controllers\Home.php(53): view('pages/principal')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 16:37:38 --> Undefined array key 1
+in APPPATH\Views\pages\principal.php on line 54.
+ 1 APPPATH\Views\pages\principal.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\principal.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\principal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/principal', [], true)
+ 5 APPPATH\Controllers\Home.php(53): view('pages/principal')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 16:41:10 --> Undefined array key "imagen"
+in APPPATH\Views\pages\principal.php on line 137.
+ 1 APPPATH\Views\pages\principal.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagen"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\principal.php', 137)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\principal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/principal', [], true)
+ 5 APPPATH\Controllers\Home.php(53): view('pages/principal')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 17:30:02 --> Undefined array key "usuario"
+in APPPATH\Views\templates\navbar2.php on line 50.
+ 1 APPPATH\Views\templates\navbar2.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "usuario"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar2.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar2.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/navbar2', [], true)
+ 5 APPPATH\Controllers\Home.php(51): view('templates/navbar2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 17:30:23 --> Undefined array key "usuario"
+in APPPATH\Views\templates\navbar2.php on line 50.
+ 1 APPPATH\Views\templates\navbar2.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "usuario"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar2.php', 50)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar2.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/navbar2', [], true)
+ 5 APPPATH\Controllers\Home.php(51): view('templates/navbar2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 17:59:15 --> Undefined array key "tipo"
+in APPPATH\Controllers\TiendaController.php on line 36.
+ 1 APPPATH\Controllers\TiendaController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipo"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\TiendaController.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 17:59:44 --> Undefined array key "tipo"
+in APPPATH\Controllers\TiendaController.php on line 36.
+ 1 APPPATH\Controllers\TiendaController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipo"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\TiendaController.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 17:59:52 --> session_start(): Ignoring session_start() because a session is already active
+in APPPATH\Controllers\TiendaController.php on line 67.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start(): Ignoring session_start() because a session is already active', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\TiendaController.php', 67)
+ 2 APPPATH\Controllers\TiendaController.php(67): session_start()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->producto('1')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 18:10:27 --> include(Views\pages\producto\modificarProducto.php): Failed to open stream: No such file or directory
+in APPPATH\Views\templates\navbarAdmin.php on line 61.
+ 1 APPPATH\Views\templates\navbarAdmin.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(Views\\pages\\producto\\modificarProducto.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbarAdmin.php', 61)
+ 2 APPPATH\Views\templates\navbarAdmin.php(61): include()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbarAdmin.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/navbarAdmin', [], true)
+ 6 APPPATH\Controllers\Home.php(42): view('templates/navbarAdmin')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 18:10:41 --> include(\Views\pages\producto\modificarProducto.php): Failed to open stream: No such file or directory
+in APPPATH\Views\templates\navbarAdmin.php on line 61.
+ 1 APPPATH\Views\templates\navbarAdmin.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(\\Views\\pages\\producto\\modificarProducto.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbarAdmin.php', 61)
+ 2 APPPATH\Views\templates\navbarAdmin.php(61): include()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbarAdmin.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/navbarAdmin', [], true)
+ 6 APPPATH\Controllers\Home.php(42): view('templates/navbarAdmin')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 18:10:48 --> include(pages\producto\modificarProducto.php): Failed to open stream: No such file or directory
+in APPPATH\Views\templates\navbarAdmin.php on line 61.
+ 1 APPPATH\Views\templates\navbarAdmin.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(pages\\producto\\modificarProducto.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbarAdmin.php', 61)
+ 2 APPPATH\Views\templates\navbarAdmin.php(61): include()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbarAdmin.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/navbarAdmin', [], true)
+ 6 APPPATH\Controllers\Home.php(42): view('templates/navbarAdmin')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 18:11:35 --> include(modificarProducto.php): Failed to open stream: No such file or directory
+in APPPATH\Views\templates\navbarAdmin.php on line 61.
+ 1 APPPATH\Views\templates\navbarAdmin.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(modificarProducto.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbarAdmin.php', 61)
+ 2 APPPATH\Views\templates\navbarAdmin.php(61): include()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbarAdmin.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/navbarAdmin', [], true)
+ 6 APPPATH\Controllers\Home.php(42): view('templates/navbarAdmin')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 18:11:58 --> Call to undefined function set_value()
+in APPPATH\Views\pages\producto\modificarProducto.php on line 11.
+ 1 APPPATH\Views\templates\navbarAdmin.php(61): include()
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbarAdmin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/navbarAdmin', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('templates/navbarAdmin')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 18:15:35 --> Call to undefined function set_value()
+in APPPATH\Views\pages\producto\modificarProducto.php on line 17.
+ 1 APPPATH\Views\templates\navbarAdmin.php(61): include()
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbarAdmin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/navbarAdmin', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('templates/navbarAdmin')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 18:16:18 --> Call to undefined function set_value()
+in APPPATH\Views\pages\producto\modificarProducto.php on line 11.
+ 1 APPPATH\Views\templates\navbarAdmin.php(61): include()
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbarAdmin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/navbarAdmin', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('templates/navbarAdmin')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 18:20:49 --> Call to undefined function set_value()
+in APPPATH\Views\pages\producto\modificarProducto.php on line 11.
+ 1 APPPATH\Views\templates\navbarAdmin.php(61): include()
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbarAdmin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/navbarAdmin', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('templates/navbarAdmin')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 18:20:51 --> Call to undefined function set_value()
+in APPPATH\Views\pages\producto\modificarProducto.php on line 11.
+ 1 APPPATH\Views\templates\navbarAdmin.php(61): include()
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbarAdmin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/navbarAdmin', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('templates/navbarAdmin')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 18:21:11 --> Call to undefined function set_value()
+in APPPATH\Views\pages\producto\modificarProducto.php on line 11.
+ 1 APPPATH\Views\templates\navbarAdmin.php(61): include()
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbarAdmin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/navbarAdmin', [], true)
+ 5 APPPATH\Controllers\Home.php(42): view('templates/navbarAdmin')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 18:35:28 --> Undefined array key "id_clasificacion"
+in APPPATH\Views\pages\producto\modificarProducto.php on line 27.
+ 1 APPPATH\Views\pages\producto\modificarProducto.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_clasificacion"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\producto\\modificarProducto.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\producto\\modificarProducto.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/producto/modificarProducto', [], true)
+ 5 APPPATH\Controllers\ProductoController.php(126): view('pages/producto/modificarProducto')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->modificar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 18:36:40 --> Undefined array key "id_clasif"
+in APPPATH\Views\pages\producto\modificarProducto.php on line 36.
+ 1 APPPATH\Views\pages\producto\modificarProducto.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_clasif"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\producto\\modificarProducto.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\producto\\modificarProducto.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/producto/modificarProducto', [], true)
+ 5 APPPATH\Controllers\ProductoController.php(126): view('pages/producto/modificarProducto')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->modificar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 18:45:16 --> Too few arguments to function App\Controllers\ProductoController::modificar(), 0 passed in C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\ProductoController.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->modificar()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 18:46:36 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\ProductoController.php(102): CodeIgniter\HTTP\Files\UploadedFile->move('assets/img/productos/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->modificar('1')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 18:46:52 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\ProductoController.php(102): CodeIgniter\HTTP\Files\UploadedFile->move('assets/img/productos/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->modificar('1')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 18:55:26 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\ProductoController.php(66): CodeIgniter\HTTP\Files\UploadedFile->move('assets/img/productos/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->agregar()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 19:01:19 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\ProductoController.php(51): CodeIgniter\HTTP\Files\UploadedFile->move('assets/img/productos/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->agregar()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 19:01:28 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\ProductoController.php(51): CodeIgniter\HTTP\Files\UploadedFile->move('assets/img/productos/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->agregar()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 19:01:40 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\ProductoController.php(51): CodeIgniter\HTTP\Files\UploadedFile->move('assets/img/productos/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->agregar()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 19:01:46 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\ProductoController.php(51): CodeIgniter\HTTP\Files\UploadedFile->move('assets/img/productos/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->agregar()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 19:10:55 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\ProductoController.php(51): CodeIgniter\HTTP\Files\UploadedFile->move('assets/img/productos/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->agregar()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 19:11:00 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\ProductoController.php(51): CodeIgniter\HTTP\Files\UploadedFile->move('assets/img/productos/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->agregar()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 19:11:04 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\ProductoController.php(51): CodeIgniter\HTTP\Files\UploadedFile->move('assets/img/productos/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->agregar()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 19:11:11 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\ProductoController.php(51): CodeIgniter\HTTP\Files\UploadedFile->move('assets/img/productos/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->agregar()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 19:26:40 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\ProductoController.php(62): CodeIgniter\HTTP\Files\UploadedFile->move('assets/img/productos/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->agregar()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 19:26:55 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\ProductoController.php(62): CodeIgniter\HTTP\Files\UploadedFile->move('assets/img/productos/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->agregar()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 19:28:26 --> "grater_than" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 320.
+ 1 SYSTEMPATH\Validation\Validation.php(320): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('grater_than')
+ 2 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('tipo1', 'tipo1', null, [...], [...])
+ 3 SYSTEMPATH\BaseModel.php(1453): CodeIgniter\Validation\Validation->run([...], null, null)
+ 4 SYSTEMPATH\BaseModel.php(745): CodeIgniter\BaseModel->validate([...])
+ 5 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 6 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 7 APPPATH\Controllers\ProductoController.php(51): CodeIgniter\BaseModel->save([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->agregar()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 19:30:37 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\ProductoController.php(51): CodeIgniter\HTTP\Files\UploadedFile->move('assets/img/productos/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->agregar()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 19:30:41 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\ProductoController.php(51): CodeIgniter\HTTP\Files\UploadedFile->move('assets/img/productos/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->agregar()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 20:02:27 --> Undefined variable $prod
+in APPPATH\Views\pages\producto\modificarProducto.php on line 46.
+ 1 APPPATH\Views\pages\producto\modificarProducto.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prod', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\producto\\modificarProducto.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\producto\\modificarProducto.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/producto/modificarProducto', [], true)
+ 5 APPPATH\Controllers\ProductoController.php(123): view('pages/producto/modificarProducto')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->modificar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 20:02:33 --> Undefined variable $prod
+in APPPATH\Views\pages\producto\modificarProducto.php on line 46.
+ 1 APPPATH\Views\pages\producto\modificarProducto.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prod', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\producto\\modificarProducto.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\producto\\modificarProducto.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/producto/modificarProducto', [], true)
+ 5 APPPATH\Controllers\ProductoController.php(123): view('pages/producto/modificarProducto')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->modificar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 20:29:58 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\ProductoController.php(99): CodeIgniter\HTTP\Files\UploadedFile->move('assets/img/productos/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->modificar('1')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 20:31:07 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1680.
+ 1 SYSTEMPATH\BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\ProductoController.php(103): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->modificar('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 20:34:28 --> syntax error, unexpected token "if"
+in APPPATH\Controllers\ProductoController.php on line 115.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\ProductoController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ProductoController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ProductoController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\ProductoController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 20:34:54 --> Undefined array key "imagen"
+in APPPATH\Controllers\ProductoController.php on line 112.
+ 1 APPPATH\Controllers\ProductoController.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagen"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\ProductoController.php', 112)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->modificar('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 20:36:24 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1680.
+ 1 SYSTEMPATH\BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\ProductoController.php(117): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->modificar('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 20:43:42 --> Invalid file: "pages/usuario/registro_exitoso.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/usuario/registro_exitoso.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/usuario/registro_exitoso', [], true)
+ 3 APPPATH\Controllers\ProductoController.php(120): view('pages/usuario/registro_exitoso')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->modificar('1')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 20:47:59 --> "greater_than_zero" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 320.
+ 1 SYSTEMPATH\Validation\Validation.php(320): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('greater_than_zero')
+ 2 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('precio', 'precio', '109539', [...], [...])
+ 3 SYSTEMPATH\BaseModel.php(1453): CodeIgniter\Validation\Validation->run([...], null, null)
+ 4 SYSTEMPATH\BaseModel.php(913): CodeIgniter\BaseModel->validate([...])
+ 5 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [...])
+ 6 APPPATH\Controllers\ProductoController.php(115): CodeIgniter\Model->update('1', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->modificar('1')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 20:50:16 --> Invalid file: "pages/templates/guardado_exitoso.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/templates/guardado_exitoso.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/templates/guardado_exitoso', [], true)
+ 3 APPPATH\Controllers\ProductoController.php(126): view('pages/templates/guardado_exitoso')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->modificar('1')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 21:52:03 --> Undefined array key "HTTP_REFERER"
+in APPPATH\Controllers\CompraController.php on line 15.
+ 1 APPPATH\Controllers\CompraController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "HTTP_REFERER"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\CompraController.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CompraController->agregar_carrito()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompraController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 21:52:52 --> Undefined array key "HTTP_REFERER"
+in APPPATH\Controllers\CompraController.php on line 15.
+ 1 APPPATH\Controllers\CompraController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "HTTP_REFERER"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\CompraController.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CompraController->agregar_carrito()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompraController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 22:06:34 --> Undefined array key "carrito"
+in APPPATH\Views\templates\navbar2.php on line 109.
+ 1 APPPATH\Views\templates\navbar2.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "carrito"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar2.php', 109)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar2.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/navbar2', [], true)
+ 5 APPPATH\Controllers\Home.php(52): view('templates/navbar2')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 22:11:15 --> Undefined array key "id"
+in APPPATH\Views\pages\principal.php on line 88.
+ 1 APPPATH\Views\pages\principal.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\principal.php', 88)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\principal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/principal', [], true)
+ 5 APPPATH\Controllers\Home.php(54): view('pages/principal')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 22:11:25 --> Undefined array key "nombre"
+in APPPATH\Views\templates\navbar2.php on line 113.
+ 1 APPPATH\Views\templates\navbar2.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar2.php', 113)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar2.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/navbar2', [], true)
+ 5 APPPATH\Controllers\Home.php(52): view('templates/navbar2')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 22:19:43 --> Undefined variable $producto
+in APPPATH\Views\templates\navbar2.php on line 119.
+ 1 APPPATH\Views\templates\navbar2.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $producto', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar2.php', 119)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar2.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/navbar2', [], true)
+ 5 APPPATH\Controllers\Home.php(52): view('templates/navbar2')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 22:19:50 --> Trying to access array offset on value of type int
+in APPPATH\Views\templates\navbar2.php on line 125.
+ 1 APPPATH\Views\templates\navbar2.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar2.php', 125)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar2.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/navbar2', [], true)
+ 5 APPPATH\Controllers\Home.php(52): view('templates/navbar2')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 22:37:06 --> The route for "/tienda" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('/tienda')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\CompraController.php(39): redirect('/tienda')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CompraController->agregar_carrito('1')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompraController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 22:47:55 --> Undefined array key 0
+in APPPATH\Controllers\CompraController.php on line 31.
+ 1 APPPATH\Controllers\CompraController.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\CompraController.php', 31)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CompraController->agregar_carrito('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompraController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 22:48:58 --> Undefined array key 0
+in APPPATH\Controllers\CompraController.php on line 32.
+ 1 APPPATH\Controllers\CompraController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\CompraController.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CompraController->agregar_carrito('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompraController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-27 22:49:12 --> Undefined array key 0
+in APPPATH\Controllers\CompraController.php on line 32.
+ 1 APPPATH\Controllers\CompraController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\CompraController.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CompraController->agregar_carrito('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CompraController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

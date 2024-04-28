@@ -1,0 +1,22 @@
+CRITICAL - 2023-04-19 15:19:54 --> Undefined variable $j
+in APPPATH\Views\pages\principal.php on line 106.
+ 1 APPPATH\Views\pages\principal.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $j', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\principal.php', 106)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\principal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/principal', [], true)
+ 5 APPPATH\Controllers\Home.php(12): view('pages/principal')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-19 15:22:28 --> Array to string conversion
+in APPPATH\Views\pages\principal.php on line 106.
+ 1 APPPATH\Views\pages\principal.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\principal.php', 106)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\principal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/principal', [], true)
+ 5 APPPATH\Controllers\Home.php(12): view('pages/principal')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

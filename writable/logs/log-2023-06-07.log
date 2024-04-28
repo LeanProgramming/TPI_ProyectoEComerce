@@ -1,0 +1,1192 @@
+CRITICAL - 2023-06-07 00:06:15 --> Undefined array key 0
+in APPPATH\Controllers\TiendaController.php on line 107.
+ 1 APPPATH\Controllers\TiendaController.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\TiendaController.php', 107)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->clasificar('PC Hogar y Oficina')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 00:10:56 --> Undefined array key "clasif"
+in APPPATH\Controllers\TiendaController.php on line 111.
+ 1 APPPATH\Controllers\TiendaController.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "clasif"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\TiendaController.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->clasificar('PC Hogar y Oficina')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 00:12:15 --> Undefined array key 0
+in APPPATH\Controllers\TiendaController.php on line 111.
+ 1 APPPATH\Controllers\TiendaController.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\TiendaController.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->clasificar('PC Hogar y Oficina')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 00:16:11 --> Undefined array key "clasif"
+in APPPATH\Controllers\TiendaController.php on line 96.
+ 1 APPPATH\Controllers\TiendaController.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "clasif"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\TiendaController.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->clasificar('PC Hogar y Oficina')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 00:16:31 --> Undefined array key "cnombre"
+in APPPATH\Controllers\TiendaController.php on line 96.
+ 1 APPPATH\Controllers\TiendaController.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cnombre"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\TiendaController.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->clasificar('PC Hogar y Oficina')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 00:16:35 --> Undefined array key "nombre"
+in APPPATH\Controllers\TiendaController.php on line 96.
+ 1 APPPATH\Controllers\TiendaController.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\TiendaController.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->clasificar('PC Hogar y Oficina')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 00:16:49 --> Undefined array key "nombre"
+in APPPATH\Controllers\TiendaController.php on line 96.
+ 1 APPPATH\Controllers\TiendaController.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\TiendaController.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->clasificar('PC Hogar y Oficina')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 00:17:08 --> Undefined array key "clasif"
+in APPPATH\Controllers\TiendaController.php on line 96.
+ 1 APPPATH\Controllers\TiendaController.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "clasif"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\TiendaController.php', 96)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->clasificar('PC Hogar y Oficina')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 00:19:03 --> Cannot use [] for reading
+in APPPATH\Controllers\TiendaController.php on line 96.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->clasificar('PC Hogar y Oficina')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 00:19:08 --> key_exists(): Argument #2 ($array) must be of type array, string given
+in APPPATH\Controllers\TiendaController.php on line 96.
+ 1 APPPATH\Controllers\TiendaController.php(96): key_exists('PC Hogar y Oficina', 'PC Armadas')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->clasificar('PC Hogar y Oficina')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 00:19:15 --> key_exists(): Argument #2 ($array) must be of type array, string given
+in APPPATH\Controllers\TiendaController.php on line 96.
+ 1 APPPATH\Controllers\TiendaController.php(96): key_exists('PC Hogar y Oficina', 'PC Armadas')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->clasificar('PC Hogar y Oficina')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 00:19:33 --> Undefined array key 0
+in APPPATH\Controllers\TiendaController.php on line 107.
+ 1 APPPATH\Controllers\TiendaController.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\TiendaController.php', 107)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->clasificar('PC Hogar y Oficina')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 00:19:56 --> Undefined array key "clasif"
+in APPPATH\Controllers\TiendaController.php on line 107.
+ 1 APPPATH\Controllers\TiendaController.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "clasif"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\TiendaController.php', 107)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->clasificar('PC Hogar y Oficina')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 00:22:48 --> Undefined array key "clasif"
+in APPPATH\Controllers\TiendaController.php on line 109.
+ 1 APPPATH\Controllers\TiendaController.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "clasif"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\TiendaController.php', 109)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->clasificar('PC Hogar y Oficina')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 00:23:14 --> Undefined array key 0
+in APPPATH\Controllers\TiendaController.php on line 109.
+ 1 APPPATH\Controllers\TiendaController.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\TiendaController.php', 109)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->clasificar('pc armadas')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 00:23:50 --> Undefined array key 0
+in APPPATH\Controllers\TiendaController.php on line 109.
+ 1 APPPATH\Controllers\TiendaController.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\TiendaController.php', 109)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->clasificar('pc armadas')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 00:24:12 --> Undefined array key 0
+in APPPATH\Controllers\TiendaController.php on line 109.
+ 1 APPPATH\Controllers\TiendaController.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\TiendaController.php', 109)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->clasificar('PC Armada')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 00:24:54 --> Undefined array key 0
+in APPPATH\Controllers\TiendaController.php on line 109.
+ 1 APPPATH\Controllers\TiendaController.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\TiendaController.php', 109)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->clasificar('PC Armada')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 00:25:00 --> Undefined array key 0
+in APPPATH\Controllers\TiendaController.php on line 109.
+ 1 APPPATH\Controllers\TiendaController.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\TiendaController.php', 109)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->clasificar('PC Armada')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 00:26:39 --> Undefined array key 0
+in APPPATH\Controllers\TiendaController.php on line 109.
+ 1 APPPATH\Controllers\TiendaController.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\TiendaController.php', 109)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->clasificar('PC Armada')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-07 01:01:18 --> mysqli_sql_exception: Table 'bd_munoz_leandro.clasificaciones' doesn't exist in C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_munoz_leandro\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_munoz_leandro\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_munoz_leandro\app\Controllers\TiendaController.php(96): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(934): App\Controllers\TiendaController->clasificar('PC Armada')
+#8 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+#9 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_munoz_leandro\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-07 01:01:18 --> Table 'bd_munoz_leandro.clasificaciones' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `subclasificacion`
+JOIN `clasificaciones` ON `clasif_id`=`id_clasificacion`
+WHERE `subclasif` LIKE \'%PC Armada%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `subclasificacion`
+JOIN `clasificaciones` ON `clasif_id`=`id_clasificacion`
+WHERE `subclasif` LIKE \'%PC Armada%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `subclasificacion`
+JOIN `clasificaciones` ON `clasif_id`=`id_clasificacion`
+WHERE `subclasif` LIKE \'%PC Armada%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `subclasificacion`
+JOIN `clasificaciones` ON `clasif_id`=`id_clasificacion`
+WHERE `subclasif` LIKE :subclasif: ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\TiendaController.php(96): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->clasificar('PC Armada')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 01:01:33 --> Undefined array key "clasif"
+in APPPATH\Controllers\TiendaController.php on line 109.
+ 1 APPPATH\Controllers\TiendaController.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "clasif"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\TiendaController.php', 109)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->clasificar('PC Hogar y Oficina')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 01:03:01 --> syntax error, unexpected variable "$subclasificacion", expecting ";"
+in APPPATH\Controllers\TiendaController.php on line 98.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\TiendaController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\TiendaController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\TiendaController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\TiendaController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 01:03:08 --> view(): Argument #1 ($name) must be of type string, array given, called in C:\xampp\htdocs\proyecto_munoz_leandro\app\Controllers\TiendaController.php on line 98
+in SYSTEMPATH\Common.php on line 1172.
+ 1 APPPATH\Controllers\TiendaController.php(98): view([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->clasificar('PC Hogar y Oficina')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 01:03:17 --> Array to string conversion
+in APPPATH\Controllers\TiendaController.php on line 98.
+ 1 APPPATH\Controllers\TiendaController.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\TiendaController.php', 98)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->clasificar('PC Hogar y Oficina')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 01:10:07 --> Cannot use empty array elements in arrays
+in APPPATH\Controllers\TiendaController.php on line 111.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-07 01:10:45 --> Cannot use empty array elements in arrays
+in APPPATH\Controllers\TiendaController.php on line 112.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-07 01:11:06 --> Cannot use empty array elements in arrays
+in APPPATH\Controllers\TiendaController.php on line 114.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-07 01:13:02 --> Undefined variable $productos
+in APPPATH\Views\pages\tienda.php on line 32.
+ 1 APPPATH\Views\pages\tienda.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\tienda.php', 32)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\tienda.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/tienda', [], true)
+ 5 APPPATH\Controllers\TiendaController.php(124): view('pages/tienda')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->subclasificar('portátiles', 'Mackbooks')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 01:13:44 --> Undefined array key 0
+in APPPATH\Controllers\TiendaController.php on line 112.
+ 1 APPPATH\Controllers\TiendaController.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\TiendaController.php', 112)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->subclasificar('portátiles', 'Mackbooks')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 01:47:53 --> Undefined array key 2
+in APPPATH\Views\templates\breadcrum.php on line 11.
+ 1 APPPATH\Views\templates\breadcrum.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\breadcrum.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\breadcrum.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/breadcrum', [], true)
+ 5 APPPATH\Controllers\TiendaController.php(145): view('templates/breadcrum')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->buscar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-07 02:53:57 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp\htdocs\proyecto_munoz_leandro\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\proyecto_munoz_leandro\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\proyecto_munoz_leandro\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\proyecto_munoz_leandro\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\proyecto_munoz_leandro\app\Controllers\Home.php(138): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(934): App\Controllers\Home->consulta()
+#10 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\proyecto_munoz_leandro\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-06-07 02:53:57 --> Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `consultas` (`asunto`, `contenido`, `fecha_cons`, `updated_at`) VALUES (\'Compu\', \'Quiero saber si hay una compu\', \'2023-06-07 02:53:57\', \'2023-06-07 02:53:57\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `consultas` (`asunto`, `contenido`, `fecha_cons`, `updated_at`) VALUES (\'Compu\', \'Quiero saber si hay una compu\', \'2023-06-07 02:53:57\', \'2023-06-07 02:53:57\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `consultas` (`asunto`, `contenido`, `fecha_cons`, `updated_at`) VALUES (\'Compu\', \'Quiero saber si hay una compu\', \'2023-06-07 02:53:57\', \'2023-06-07 02:53:57\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `consultas` (`asunto`, `contenido`, `fecha_cons`, `updated_at`) VALUES (:asunto:, :contenido:, :fecha_cons:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Home.php(138): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->consulta()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 02:54:39 --> Invalid file: "pages/guardado_exitoso.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/guardado_exitoso.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/guardado_exitoso', [], true)
+ 3 APPPATH\Controllers\Home.php(154): view('pages/guardado_exitoso')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->consulta()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 03:01:43 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\pages\consulta.php on line 35.
+ 1 APPPATH\Views\pages\consulta.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\consulta.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\consulta.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/consulta', [], true)
+ 5 APPPATH\Controllers\Home.php(160): view('pages/consulta')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->consulta()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 03:09:48 --> date_format(): Argument #1 ($object) must be of type DateTimeInterface, string given
+in APPPATH\Views\pages\consulta.php on line 40.
+ 1 APPPATH\Views\pages\consulta.php(40): date_format('2023-06-07 02:54:39', 'd/m/y')
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\consulta.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/consulta', [], true)
+ 5 APPPATH\Controllers\Home.php(160): view('pages/consulta')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->consulta()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 03:16:00 --> Undefined array key "nombre"
+in APPPATH\Views\pages\indexAdmin.php on line 33.
+ 1 APPPATH\Views\pages\indexAdmin.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\indexAdmin.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\indexAdmin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/indexAdmin', [], true)
+ 5 APPPATH\Controllers\Home.php(44): view('pages/indexAdmin')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 03:16:42 --> Undefined array key "nombre"
+in APPPATH\Views\pages\indexAdmin.php on line 78.
+ 1 APPPATH\Views\pages\indexAdmin.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\indexAdmin.php', 78)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\indexAdmin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/indexAdmin', [], true)
+ 5 APPPATH\Controllers\Home.php(44): view('pages/indexAdmin')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 03:37:32 --> Invalid file: "pages/indexAdmin.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/indexAdmin.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/indexAdmin', [], true)
+ 3 APPPATH\Controllers\Home.php(44): view('pages/indexAdmin')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 03:37:35 --> Invalid file: "pages/indexAdmin.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/indexAdmin.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/indexAdmin', [], true)
+ 3 APPPATH\Controllers\Home.php(44): view('pages/indexAdmin')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 03:39:24 --> Invalid file: "pages/indexAdmin.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/indexAdmin.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/indexAdmin', [], true)
+ 3 APPPATH\Controllers\AdminController.php(25): view('pages/indexAdmin')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->consultasAdmin()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 03:40:16 --> Undefined variable $consulta
+in APPPATH\Views\pages\admin\consultasAdmin.php on line 3.
+ 1 APPPATH\Views\pages\admin\consultasAdmin.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $consulta', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\admin\\consultasAdmin.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\admin\\consultasAdmin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/admin/consultasAdmin', [], true)
+ 5 APPPATH\Controllers\AdminController.php(25): view('pages/admin/consultasAdmin')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->consultasAdmin()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 04:02:16 --> ini_set(): Session ini settings cannot be changed when a session is active
+in SYSTEMPATH\Session\Handlers\FileHandler.php on line 72.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Session ini settings cannot be changed when a session is active', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\system\\Session\\Handlers\\FileHandler.php', 72)
+ 2 SYSTEMPATH\Session\Handlers\FileHandler.php(72): ini_set('session.save_path', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\writable\\session')
+ 3 SYSTEMPATH\Config\Services.php(667): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '127.0.0.1')
+ 4 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::session(Object(Config\App), false)
+ 5 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 6 SYSTEMPATH\Config\Services.php(641): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 7 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH\HTTP\RedirectResponse.php(76): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 9 APPPATH\Controllers\AdminController.php(42): CodeIgniter\HTTP\RedirectResponse->back()
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->leer_consulta('1')
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 04:02:40 --> ini_set(): Session ini settings cannot be changed when a session is active
+in SYSTEMPATH\Session\Handlers\FileHandler.php on line 72.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Session ini settings cannot be changed when a session is active', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\system\\Session\\Handlers\\FileHandler.php', 72)
+ 2 SYSTEMPATH\Session\Handlers\FileHandler.php(72): ini_set('session.save_path', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\writable\\session')
+ 3 SYSTEMPATH\Config\Services.php(667): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '127.0.0.1')
+ 4 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::session(Object(Config\App), false)
+ 5 SYSTEMPATH\Config\BaseService.php(193): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 6 SYSTEMPATH\Config\Services.php(641): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 7 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH\HTTP\RedirectResponse.php(76): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 9 APPPATH\Controllers\AdminController.php(42): CodeIgniter\HTTP\RedirectResponse->back()
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->leer_consulta('1')
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 13:17:18 --> Undefined array key "nombre"
+in APPPATH\Views\pages\producto\modificarProducto.php on line 27.
+ 1 APPPATH\Views\pages\producto\modificarProducto.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\producto\\modificarProducto.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\producto\\modificarProducto.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/producto/modificarProducto', [], true)
+ 5 APPPATH\Controllers\ProductoController.php(125): view('pages/producto/modificarProducto')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->modificar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 13:20:24 --> Undefined array key "descripcion "
+in APPPATH\Views\pages\producto\modificarProducto.php on line 20.
+ 1 APPPATH\Views\pages\producto\modificarProducto.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "descripcion "', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\producto\\modificarProducto.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\producto\\modificarProducto.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/producto/modificarProducto', [], true)
+ 5 APPPATH\Controllers\ProductoController.php(125): view('pages/producto/modificarProducto')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->modificar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 13:22:28 --> Undefined array key "nombre"
+in APPPATH\Views\pages\producto\agregarProducto.php on line 27.
+ 1 APPPATH\Views\pages\producto\agregarProducto.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\producto\\agregarProducto.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\producto\\agregarProducto.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/producto/agregarProducto', [], true)
+ 5 APPPATH\Controllers\ProductoController.php(65): view('pages/producto/agregarProducto')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->agregar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-07 14:11:06 --> mysqli_sql_exception: Table 'bd_munoz_leandro.localidad' doesn't exist in C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_munoz_leandro\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_munoz_leandro\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_munoz_leandro\app\Controllers\UserController.php(183): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(934): App\Controllers\UserController->listar_usuarios()
+#8 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_munoz_leandro\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-07 14:11:06 --> Table 'bd_munoz_leandro.localidad' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `usuarios`
+JOIN `provincias` ON `provincia_id`=`id_provincia`
+JOIN `localidad` ON `localidad_id`=`id_localidad`
+WHERE `baja` = 0', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `usuarios`
+JOIN `provincias` ON `provincia_id`=`id_provincia`
+JOIN `localidad` ON `localidad_id`=`id_localidad`
+WHERE `baja` = 0')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `usuarios`
+JOIN `provincias` ON `provincia_id`=`id_provincia`
+JOIN `localidad` ON `localidad_id`=`id_localidad`
+WHERE `baja` = 0')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+JOIN `provincias` ON `provincia_id`=`id_provincia`
+JOIN `localidad` ON `localidad_id`=`id_localidad`
+WHERE `baja` = :baja:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\UserController.php(183): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->listar_usuarios()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-07 14:11:19 --> mysqli_sql_exception: Table 'bd_munoz_leandro.localidad' doesn't exist in C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_munoz_leandro\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_munoz_leandro\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_munoz_leandro\app\Controllers\UserController.php(183): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(934): App\Controllers\UserController->listar_usuarios()
+#8 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_munoz_leandro\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-07 14:11:19 --> Table 'bd_munoz_leandro.localidad' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `usuarios`
+JOIN `provincias` ON `provincia_id`=`id_provincia`
+JOIN `localidad` ON `localidad_id`=`id_localidad`
+WHERE `baja` = 0', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `usuarios`
+JOIN `provincias` ON `provincia_id`=`id_provincia`
+JOIN `localidad` ON `localidad_id`=`id_localidad`
+WHERE `baja` = 0')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `usuarios`
+JOIN `provincias` ON `provincia_id`=`id_provincia`
+JOIN `localidad` ON `localidad_id`=`id_localidad`
+WHERE `baja` = 0')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+JOIN `provincias` ON `provincia_id`=`id_provincia`
+JOIN `localidad` ON `localidad_id`=`id_localidad`
+WHERE `baja` = :baja:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\UserController.php(183): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->listar_usuarios()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-07 14:11:25 --> mysqli_sql_exception: Table 'bd_munoz_leandro.localidad' doesn't exist in C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_munoz_leandro\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_munoz_leandro\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_munoz_leandro\app\Controllers\UserController.php(183): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(934): App\Controllers\UserController->listar_usuarios()
+#8 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_munoz_leandro\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-07 14:11:25 --> Table 'bd_munoz_leandro.localidad' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `usuarios`
+JOIN `provincias` ON `provincia_id`=`id_provincia`
+JOIN `localidad` ON `localidad_id`=`id_localidad`
+WHERE `baja` = 0', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `usuarios`
+JOIN `provincias` ON `provincia_id`=`id_provincia`
+JOIN `localidad` ON `localidad_id`=`id_localidad`
+WHERE `baja` = 0')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `usuarios`
+JOIN `provincias` ON `provincia_id`=`id_provincia`
+JOIN `localidad` ON `localidad_id`=`id_localidad`
+WHERE `baja` = 0')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuarios`
+JOIN `provincias` ON `provincia_id`=`id_provincia`
+JOIN `localidad` ON `localidad_id`=`id_localidad`
+WHERE `baja` = :baja:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\UserController.php(183): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->listar_usuarios()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 14:11:36 --> Undefined array key "telefono"
+in APPPATH\Views\pages\admin\usuarios.php on line 29.
+ 1 APPPATH\Views\pages\admin\usuarios.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "telefono"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\admin\\usuarios.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\admin\\usuarios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/admin/usuarios', [], true)
+ 5 APPPATH\Controllers\UserController.php(196): view('pages/admin/usuarios')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->listar_usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 14:14:16 --> Undefined array key "tipo"
+in APPPATH\Views\pages\admin\usuarios.php on line 31.
+ 1 APPPATH\Views\pages\admin\usuarios.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipo"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\admin\\usuarios.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\admin\\usuarios.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/admin/usuarios', [], true)
+ 5 APPPATH\Controllers\UserController.php(196): view('pages/admin/usuarios')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->listar_usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 14:17:11 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\UserController.php(211): CodeIgniter\Model->update('2', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->baja_usuario('2')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 14:33:14 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1680.
+ 1 SYSTEMPATH\BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\ProductoController.php(141): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->dar_baja('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 14:34:16 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1680.
+ 1 SYSTEMPATH\BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\ProductoController.php(141): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->dar_baja('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 14:34:19 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1680.
+ 1 SYSTEMPATH\BaseModel.php(1680): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(910): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\ProductoController.php(141): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->dar_baja('1')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-07 14:52:49 --> mysqli_sql_exception: Table 'bd_munoz_leandro.clasificaciones' doesn't exist in C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_munoz_leandro\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_munoz_leandro\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_munoz_leandro\app\Controllers\Home.php(44): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_munoz_leandro\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-07 14:52:49 --> Table 'bd_munoz_leandro.clasificaciones' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `productos`
+JOIN `clasificaciones` ON `tipo1`=`id_clasificacion`
+JOIN `subclasificaciones` ON `tipo2`=`id_subclasif`
+WHERE `baja` = 0', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `productos`
+JOIN `clasificaciones` ON `tipo1`=`id_clasificacion`
+JOIN `subclasificaciones` ON `tipo2`=`id_subclasif`
+WHERE `baja` = 0')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `productos`
+JOIN `clasificaciones` ON `tipo1`=`id_clasificacion`
+JOIN `subclasificaciones` ON `tipo2`=`id_subclasif`
+WHERE `baja` = 0')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `productos`
+JOIN `clasificaciones` ON `tipo1`=`id_clasificacion`
+JOIN `subclasificaciones` ON `tipo2`=`id_subclasif`
+WHERE `baja` = :baja:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Home.php(44): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-07 14:53:06 --> mysqli_sql_exception: Table 'bd_munoz_leandro.subclasificaciones' doesn't exist in C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_munoz_leandro\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_munoz_leandro\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_munoz_leandro\app\Controllers\Home.php(44): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_munoz_leandro\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-07 14:53:06 --> Table 'bd_munoz_leandro.subclasificaciones' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `productos`
+JOIN `clasificacion` ON `tipo1`=`id_clasificacion`
+JOIN `subclasificaciones` ON `tipo2`=`id_subclasif`
+WHERE `baja` = 0', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `productos`
+JOIN `clasificacion` ON `tipo1`=`id_clasificacion`
+JOIN `subclasificaciones` ON `tipo2`=`id_subclasif`
+WHERE `baja` = 0')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `productos`
+JOIN `clasificacion` ON `tipo1`=`id_clasificacion`
+JOIN `subclasificaciones` ON `tipo2`=`id_subclasif`
+WHERE `baja` = 0')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `productos`
+JOIN `clasificacion` ON `tipo1`=`id_clasificacion`
+JOIN `subclasificaciones` ON `tipo2`=`id_subclasif`
+WHERE `baja` = :baja:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Home.php(44): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 14:54:33 --> Array to string conversion
+in APPPATH\Views\pages\admin\indexAdmin.php on line 81.
+ 1 APPPATH\Views\pages\admin\indexAdmin.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\admin\\indexAdmin.php', 81)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\admin\\indexAdmin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/admin/indexAdmin', [], true)
+ 5 APPPATH\Controllers\Home.php(54): view('pages/admin/indexAdmin')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-07 15:48:36 --> mysqli_sql_exception: Unknown column 'baja_clasif' in 'where clause' in C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_munoz_leandro\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_munoz_leandro\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_munoz_leandro\app\Controllers\AdminController.php(54): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(934): App\Controllers\AdminController->clasificaciones()
+#8 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#9 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_munoz_leandro\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-07 15:48:36 --> Unknown column 'baja_clasif' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `consultas`
+WHERE `baja_clasif` = 0', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `consultas`
+WHERE `baja_clasif` = 0')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `consultas`
+WHERE `baja_clasif` = 0')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `consultas`
+WHERE `baja_clasif` = :baja_clasif:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\AdminController.php(54): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->clasificaciones()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-07 16:01:53 --> mysqli_sql_exception: Unknown column 'baja_subclasif' in 'where clause' in C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_munoz_leandro\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_munoz_leandro\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_munoz_leandro\app\Controllers\AdminController.php(77): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(934): App\Controllers\AdminController->subclasificaciones()
+#8 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#9 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_munoz_leandro\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-07 16:01:53 --> Unknown column 'baja_subclasif' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `clasificacion`
+WHERE `baja_subclasif` = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `clasificacion`
+WHERE `baja_subclasif` = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `clasificacion`
+WHERE `baja_subclasif` = 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `clasificacion`
+WHERE `baja_subclasif` = :baja_subclasif:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\AdminController.php(77): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->subclasificaciones()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-07 16:03:08 --> mysqli_sql_exception: Not unique table/alias: 'clasificacion' in C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_munoz_leandro\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_munoz_leandro\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_munoz_leandro\app\Controllers\AdminController.php(79): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(934): App\Controllers\AdminController->subclasificaciones()
+#8 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#9 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_munoz_leandro\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-07 16:03:08 --> Not unique table/alias: 'clasificacion'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `clasificacion`
+JOIN `clasificacion` ON `clasif_id`=`id_clasificacion`
+WHERE `baja_subclasif` = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `clasificacion`
+JOIN `clasificacion` ON `clasif_id`=`id_clasificacion`
+WHERE `baja_subclasif` = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `clasificacion`
+JOIN `clasificacion` ON `clasif_id`=`id_clasificacion`
+WHERE `baja_subclasif` = 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `clasificacion`
+JOIN `clasificacion` ON `clasif_id`=`id_clasificacion`
+WHERE `baja_subclasif` = :baja_subclasif:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\AdminController.php(79): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->subclasificaciones()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-07 16:04:49 --> mysqli_sql_exception: Not unique table/alias: 'clasificacion' in C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_munoz_leandro\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_munoz_leandro\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_munoz_leandro\app\Controllers\AdminController.php(79): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(934): App\Controllers\AdminController->subclasificaciones()
+#8 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#9 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_munoz_leandro\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-07 16:04:49 --> Not unique table/alias: 'clasificacion'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `clasificacion`
+JOIN `clasificacion` ON `clasif_id`=`id_clasificacion`
+WHERE `baja_subclasif` = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `clasificacion`
+JOIN `clasificacion` ON `clasif_id`=`id_clasificacion`
+WHERE `baja_subclasif` = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `clasificacion`
+JOIN `clasificacion` ON `clasif_id`=`id_clasificacion`
+WHERE `baja_subclasif` = 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `clasificacion`
+JOIN `clasificacion` ON `clasif_id`=`id_clasificacion`
+WHERE `baja_subclasif` = :baja_subclasif:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\AdminController.php(79): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->subclasificaciones()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-07 16:05:32 --> mysqli_sql_exception: Not unique table/alias: 'clasificacion' in C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_munoz_leandro\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_munoz_leandro\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_munoz_leandro\app\Controllers\AdminController.php(77): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(934): App\Controllers\AdminController->subclasificaciones()
+#8 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#9 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_munoz_leandro\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-07 16:05:32 --> Not unique table/alias: 'clasificacion'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `clasificacion`
+JOIN `clasificacion` ON `clasif_id` = `id_clasificacion`
+WHERE `baja_subclasif` = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `clasificacion`
+JOIN `clasificacion` ON `clasif_id` = `id_clasificacion`
+WHERE `baja_subclasif` = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `clasificacion`
+JOIN `clasificacion` ON `clasif_id` = `id_clasificacion`
+WHERE `baja_subclasif` = 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `clasificacion`
+JOIN `clasificacion` ON `clasif_id` = `id_clasificacion`
+WHERE `baja_subclasif` = :baja_subclasif:', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\AdminController.php(77): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->subclasificaciones()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 17:18:25 --> Too few arguments to function App\Controllers\AdminController::agregar_clasif(), 0 passed in C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\AdminController.php on line 71.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->agregar_clasif()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 17:20:00 --> Undefined variable $clasificaciones
+in APPPATH\Views\pages\admin\clasificaciones.php on line 19.
+ 1 APPPATH\Views\pages\admin\clasificaciones.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clasificaciones', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\admin\\clasificaciones.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\admin\\clasificaciones.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/admin/clasificaciones', [], true)
+ 5 APPPATH\Controllers\AdminController.php(82): view('pages/admin/clasificaciones')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->agregar_clasif()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 17:20:26 --> Invalid file: "pages/admin/agregarClasificacion.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/admin/agregarClasificacion.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/admin/agregarClasificacion', [], true)
+ 3 APPPATH\Controllers\AdminController.php(82): view('pages/admin/agregarClasificacion')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->agregar_clasif()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 17:20:40 --> Call to undefined function set_value()
+in APPPATH\Views\pages\producto\agregarClasificacion.php on line 9.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/producto/agregarClasificacion', [], true)
+ 4 APPPATH\Controllers\AdminController.php(82): view('pages/producto/agregarClasificacion')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->agregar_clasif()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 17:35:27 --> Undefined variable $esAgregar
+in APPPATH\Views\pages\admin\clasificaciones.php on line 8.
+ 1 APPPATH\Views\pages\admin\clasificaciones.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $esAgregar', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\admin\\clasificaciones.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\admin\\clasificaciones.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/admin/clasificaciones', [], true)
+ 5 APPPATH\Controllers\AdminController.php(69): view('pages/admin/clasificaciones')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->clasificaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 17:56:41 --> Invalid file: "pages/admin/modificar_clasif.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/admin/modificar_clasif.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/admin/modificar_clasif', [], true)
+ 3 APPPATH\Controllers\AdminController.php(110): view('pages/admin/modificar_clasif')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->modificar_clasif('1')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 17:57:00 --> Invalid file: "pages/producto/modificar_clasif.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/producto/modificar_clasif.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/producto/modificar_clasif', [], true)
+ 3 APPPATH\Controllers\AdminController.php(110): view('pages/producto/modificar_clasif')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->modificar_clasif('1')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 17:59:37 --> Invalid file: "pages/admin/modificarClasificacion.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/admin/modificarClasificacion.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/admin/modificarClasificacion', [], true)
+ 3 APPPATH\Controllers\AdminController.php(119): view('pages/admin/modificarClasificacion')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->modificar_clasif('1')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 18:07:24 --> Undefined variable $esAgregar
+in APPPATH\Views\pages\admin\subclasificaciones.php on line 7.
+ 1 APPPATH\Views\pages\admin\subclasificaciones.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $esAgregar', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\admin\\subclasificaciones.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\admin\\subclasificaciones.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/admin/subclasificaciones', [], true)
+ 5 APPPATH\Controllers\AdminController.php(172): view('pages/admin/subclasificaciones')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->subclasificaciones()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 18:16:24 --> Undefined array key "clasif_id"
+in APPPATH\Controllers\AdminController.php on line 176.
+ 1 APPPATH\Controllers\AdminController.php(176): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "clasif_id"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\AdminController.php', 176)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->subclasificaciones()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 18:37:24 --> Undefined variable $clasif
+in APPPATH\Views\pages\producto\modificarSubclasificacion.php on line 10.
+ 1 APPPATH\Views\pages\producto\modificarSubclasificacion.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clasif', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\producto\\modificarSubclasificacion.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\producto\\modificarSubclasificacion.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/producto/modificarSubclasificacion', [], true)
+ 5 APPPATH\Controllers\AdminController.php(238): view('pages/producto/modificarSubclasificacion')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->modificar_subclasif('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 18:57:47 --> Undefined array key "clasif"
+in APPPATH\Controllers\AdminController.php on line 230.
+ 1 APPPATH\Controllers\AdminController.php(230): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "clasif"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\AdminController.php', 230)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->modificar_subclasif('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 18:59:28 --> Undefined variable $clasif
+in APPPATH\Views\pages\producto\modificarClasificacion.php on line 3.
+ 1 APPPATH\Views\pages\producto\modificarClasificacion.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clasif', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\producto\\modificarClasificacion.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\producto\\modificarClasificacion.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/producto/modificarClasificacion', [], true)
+ 5 APPPATH\Controllers\AdminController.php(226): view('pages/producto/modificarClasificacion')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->modificar_subclasif('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 19:06:30 --> CodeIgniter\Validation\FileRules::uploaded(): Argument #2 ($name) must be of type string, null given, called in C:\xampp\htdocs\proyecto_munoz_leandro\system\Validation\Validation.php on line 311
+in SYSTEMPATH\Validation\FileRules.php on line 51.
+ 1 SYSTEMPATH\Validation\Validation.php(311): CodeIgniter\Validation\FileRules->uploaded(null, null)
+ 2 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('imagen', 'imagen', null, [...], [...])
+ 3 SYSTEMPATH\BaseModel.php(1453): CodeIgniter\Validation\Validation->run([...], null, null)
+ 4 SYSTEMPATH\BaseModel.php(745): CodeIgniter\BaseModel->validate([...])
+ 5 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 6 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 7 APPPATH\Controllers\ProductoController.php(56): CodeIgniter\BaseModel->save([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->agregar()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 19:08:15 --> syntax error, unexpected single-quoted string "clasificaciones", expecting "]"
+in APPPATH\Controllers\ProductoController.php on line 33.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\ProductoController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ProductoController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ProductoController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\ProductoController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 19:08:27 --> syntax error, unexpected single-quoted string "clasificaciones", expecting "]"
+in APPPATH\Controllers\ProductoController.php on line 33.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\ProductoController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ProductoController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ProductoController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\ProductoController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-07 22:49:38 --> mysqli_sql_exception: Unknown column 'comprobante_id' in 'field list' in C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `de...', 0)
+#1 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `de...')
+#2 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `de...')
+#3 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `de...', Array, false)
+#4 C:\xampp\htdocs\proyecto_munoz_leandro\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\proyecto_munoz_leandro\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\proyecto_munoz_leandro\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\proyecto_munoz_leandro\app\Controllers\CarritoController.php(152): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(934): App\Controllers\CarritoController->comprar()
+#9 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+#10 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\proyecto_munoz_leandro\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-06-07 22:49:38 --> Unknown column 'comprobante_id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `detalles_compras` (`nombre_producto`, `precio_unitario`, `precio_total`, `comprobante_id`) VALUES (\'Mouse Gamer Logitech G Pro X Superlight Negro\', \'57359\', 57359, 0)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `detalles_compras` (`nombre_producto`, `precio_unitario`, `precio_total`, `comprobante_id`) VALUES (\'Mouse Gamer Logitech G Pro X Superlight Negro\', \'57359\', 57359, 0)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `detalles_compras` (`nombre_producto`, `precio_unitario`, `precio_total`, `comprobante_id`) VALUES (\'Mouse Gamer Logitech G Pro X Superlight Negro\', \'57359\', 57359, 0)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `detalles_compras` (`nombre_producto`, `precio_unitario`, `precio_total`, `comprobante_id`) VALUES (:nombre_producto:, :precio_unitario:, :precio_total:, :comprobante_id:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\CarritoController.php(152): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CarritoController->comprar()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 22:56:41 --> Call to a member function getInsertID() on int
+in APPPATH\Controllers\CarritoController.php on line 137.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CarritoController->comprar()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 22:57:06 --> Call to a member function getInsertID() on int
+in APPPATH\Controllers\CarritoController.php on line 137.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CarritoController->comprar()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 22:57:14 --> Call to a member function getInsertID() on int
+in APPPATH\Controllers\CarritoController.php on line 137.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CarritoController->comprar()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 23:10:46 --> Undefined variable $comprobates
+in APPPATH\Views\pages\admin\ventas.php on line 16.
+ 1 APPPATH\Views\pages\admin\ventas.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $comprobates', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\admin\\ventas.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\admin\\ventas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/admin/ventas', [], true)
+ 5 APPPATH\Controllers\AdminController.php(284): view('pages/admin/ventas')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->ventas()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 23:11:11 --> Undefined array key "id_comprobante"
+in APPPATH\Views\pages\admin\ventas.php on line 20.
+ 1 APPPATH\Views\pages\admin\ventas.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_comprobante"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\admin\\ventas.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\admin\\ventas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/admin/ventas', [], true)
+ 5 APPPATH\Controllers\AdminController.php(284): view('pages/admin/ventas')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->ventas()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 23:11:28 --> Undefined array key "id_comprobante"
+in APPPATH\Views\pages\admin\ventas.php on line 20.
+ 1 APPPATH\Views\pages\admin\ventas.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_comprobante"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\admin\\ventas.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\admin\\ventas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/admin/ventas', [], true)
+ 5 APPPATH\Controllers\AdminController.php(284): view('pages/admin/ventas')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->ventas()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 23:11:45 --> Undefined array key "monto"
+in APPPATH\Views\pages\admin\ventas.php on line 23.
+ 1 APPPATH\Views\pages\admin\ventas.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "monto"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\admin\\ventas.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\admin\\ventas.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/admin/ventas', [], true)
+ 5 APPPATH\Controllers\AdminController.php(284): view('pages/admin/ventas')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->ventas()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 23:25:41 --> Undefined variable $detalle
+in APPPATH\Views\pages\admin\ver_detalle.php on line 17.
+ 1 APPPATH\Views\pages\admin\ver_detalle.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $detalle', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\admin\\ver_detalle.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\admin\\ver_detalle.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/admin/ver_detalle', [], true)
+ 5 APPPATH\Controllers\AdminController.php(303): view('pages/admin/ver_detalle')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->ver_detalle('1')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 23:53:57 --> Undefined array key 2
+in APPPATH\Views\templates\breadcrum.php on line 11.
+ 1 APPPATH\Views\templates\breadcrum.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\breadcrum.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\breadcrum.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/breadcrum', [], true)
+ 5 APPPATH\Controllers\TiendaController.php(147): view('templates/breadcrum')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->buscar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 23:54:05 --> Undefined array key 2
+in APPPATH\Views\templates\breadcrum.php on line 11.
+ 1 APPPATH\Views\templates\breadcrum.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\breadcrum.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\breadcrum.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/breadcrum', [], true)
+ 5 APPPATH\Controllers\TiendaController.php(147): view('templates/breadcrum')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->buscar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-07 23:57:35 --> Undefined array key 2
+in APPPATH\Views\templates\breadcrum.php on line 11.
+ 1 APPPATH\Views\templates\breadcrum.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\breadcrum.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\breadcrum.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/breadcrum', [], true)
+ 5 APPPATH\Controllers\TiendaController.php(147): view('templates/breadcrum')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->buscar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

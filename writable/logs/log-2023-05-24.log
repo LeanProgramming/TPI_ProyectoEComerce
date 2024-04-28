@@ -1,0 +1,126 @@
+CRITICAL - 2023-05-24 00:06:34 --> Undefined array key "id"
+in APPPATH\Controllers\TiendaController.php on line 48.
+ 1 APPPATH\Controllers\TiendaController.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\TiendaController.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->producto('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 19:56:33 --> Undefined array key "tipo"
+in APPPATH\Controllers\Home.php on line 43.
+ 1 APPPATH\Controllers\Home.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipo"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\Home.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 19:56:52 --> Undefined array key "tipo"
+in APPPATH\Controllers\Home.php on line 43.
+ 1 APPPATH\Controllers\Home.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipo"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\Home.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 19:57:11 --> session_start(): Ignoring session_start() because a session is already active
+in APPPATH\Views\templates\navbar2.php on line 2.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start(): Ignoring session_start() because a session is already active', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar2.php', 2)
+ 2 APPPATH\Views\templates\navbar2.php(2): session_start()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar2.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/navbar2', [], true)
+ 6 APPPATH\Controllers\Home.php(57): view('templates/navbar2', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 19:57:15 --> session_start(): Ignoring session_start() because a session is already active
+in APPPATH\Views\templates\navbar2.php on line 2.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start(): Ignoring session_start() because a session is already active', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar2.php', 2)
+ 2 APPPATH\Views\templates\navbar2.php(2): session_start()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar2.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/navbar2', [], true)
+ 6 APPPATH\Controllers\Home.php(57): view('templates/navbar2', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 20:00:27 --> Invalid file: "pages/indexAdmin.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/indexAdmin.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/indexAdmin', [], true)
+ 3 APPPATH\Controllers\Home.php(48): view('pages/indexAdmin')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 22:17:58 --> Undefined variable $producto
+in APPPATH\Views\pages\indexAdmin.php on line 12.
+ 1 APPPATH\Views\pages\indexAdmin.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $producto', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\indexAdmin.php', 12)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\indexAdmin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/indexAdmin', [], true)
+ 5 APPPATH\Controllers\Home.php(41): view('pages/indexAdmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 22:18:05 --> Undefined variable $clasificacion
+in APPPATH\Views\pages\indexAdmin.php on line 18.
+ 1 APPPATH\Views\pages\indexAdmin.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clasificacion', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\indexAdmin.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\indexAdmin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/indexAdmin', [], true)
+ 5 APPPATH\Controllers\Home.php(41): view('pages/indexAdmin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 23:13:22 --> Undefined variable $provincias
+in APPPATH\Views\pages\producto\agregarProducto.php on line 33.
+ 1 APPPATH\Views\pages\producto\agregarProducto.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $provincias', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\producto\\agregarProducto.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\producto\\agregarProducto.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/producto/agregarProducto', [], true)
+ 5 APPPATH\Controllers\ProductoController.php(118): view('pages/producto/agregarProducto')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->agregar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 23:40:49 --> Undefined array key "tipo"
+in APPPATH\Controllers\ProductoController.php on line 28.
+ 1 APPPATH\Controllers\ProductoController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipo"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\ProductoController.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->agregar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 23:41:10 --> Undefined array key "tipo"
+in APPPATH\Controllers\ProductoController.php on line 27.
+ 1 APPPATH\Controllers\ProductoController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipo"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\ProductoController.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->agregar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 23:42:26 --> Undefined array key "tipo"
+in APPPATH\Controllers\ProductoController.php on line 27.
+ 1 APPPATH\Controllers\ProductoController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipo"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\ProductoController.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->agregar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 23:42:29 --> Undefined array key "tipo"
+in APPPATH\Controllers\ProductoController.php on line 27.
+ 1 APPPATH\Controllers\ProductoController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipo"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\ProductoController.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->agregar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-24 23:54:22 --> Undefined variable $provincias
+in APPPATH\Views\pages\usuario\registro.php on line 33.
+ 1 APPPATH\Views\pages\usuario\registro.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $provincias', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\usuario\\registro.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\usuario\\registro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/usuario/registro', [], true)
+ 5 APPPATH\Controllers\ProductoController.php(109): view('pages/usuario/registro')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\ProductoController->agregar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductoController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

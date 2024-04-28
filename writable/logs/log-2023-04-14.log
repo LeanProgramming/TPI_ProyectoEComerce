@@ -1,0 +1,75 @@
+CRITICAL - 2023-04-14 16:44:54 --> Invalid file: "welcome_page.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_page.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('welcome_page', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('welcome_page')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-14 17:13:13 --> Invalid file: "product.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('product.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('product', [], true)
+ 3 APPPATH\Controllers\Shop.php(13): view('product')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Shop->product()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-14 17:13:58 --> Invalid file: "product.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('product.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('product', [], true)
+ 3 APPPATH\Controllers\Shop.php(13): view('product')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Shop->product()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-14 17:15:43 --> Too few arguments to function App\Controllers\Pages::view(), 0 passed in C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Pages.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->view()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-14 17:24:21 --> Undefined variable $titulo
+in APPPATH\Views\templates\header.php on line 11.
+ 1 APPPATH\Views\templates\header.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\header.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\Pages.php(21): view('templates/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->view()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-14 17:24:31 --> Undefined variable $data
+in APPPATH\Views\templates\header.php on line 11.
+ 1 APPPATH\Views\templates\header.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\header.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\Pages.php(21): view('templates/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->view()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-14 18:29:22 --> Invalid file: "pages/en_construccion.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/en_construccion.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/en_construccion', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('pages/en_construccion')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->en_construccion()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-14 18:43:11 --> Undefined variable $title
+in APPPATH\Views\templates\header.php on line 11.
+ 1 APPPATH\Views\templates\header.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\header.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\Home.php(10): view('templates/header', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,148 @@
+CRITICAL - 2023-06-12 21:17:45 --> Trying to access array offset on value of type null
+in APPPATH\Validations\CustomRules.php on line 17.
+ 1 APPPATH\Validations\CustomRules.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Validations\\CustomRules.php', 17)
+ 2 SYSTEMPATH\Validation\Validation.php(312): App\Validations\CustomRules->check_pass('1234', 'usuario', [...], null, 'pass')
+ 3 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('pass', 'pass', '1234', [...], [...])
+ 4 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 5 APPPATH\Controllers\UserController.php(113): CodeIgniter\Controller->validate([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 21:18:45 --> Trying to access array offset on value of type null
+in APPPATH\Validations\CustomRules.php on line 17.
+ 1 APPPATH\Validations\CustomRules.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Validations\\CustomRules.php', 17)
+ 2 SYSTEMPATH\Validation\Validation.php(312): App\Validations\CustomRules->check_pass('12345678', 'usuario', [...], null, 'pass')
+ 3 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('pass', 'pass', '12345678', [...], [...])
+ 4 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 5 APPPATH\Controllers\UserController.php(113): CodeIgniter\Controller->validate([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 21:23:53 --> Undefined array key "id"
+in APPPATH\Views\pages\usuario\registro.php on line 34.
+ 1 APPPATH\Views\pages\usuario\registro.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\usuario\\registro.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\usuario\\registro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/usuario/registro', [], true)
+ 5 APPPATH\Controllers\UserController.php(44): view('pages/usuario/registro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->registrar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 21:24:46 --> Undefined array key "id"
+in APPPATH\Views\pages\usuario\registro.php on line 43.
+ 1 APPPATH\Views\pages\usuario\registro.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\usuario\\registro.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\usuario\\registro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/usuario/registro', [], true)
+ 5 APPPATH\Controllers\UserController.php(44): view('pages/usuario/registro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->registrar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 21:25:08 --> Undefined array key "id_provincia"
+in APPPATH\Views\pages\usuario\registro.php on line 43.
+ 1 APPPATH\Views\pages\usuario\registro.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_provincia"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\usuario\\registro.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\usuario\\registro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/usuario/registro', [], true)
+ 5 APPPATH\Controllers\UserController.php(44): view('pages/usuario/registro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->registrar()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 22:29:07 --> date_default_timezone_set(): Timezone ID 'America / Argentina' is invalid
+in APPPATH\Views\templates\header.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'date_default_timezone_set(): Timezone ID \'America / Argentina\' is invalid', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\header.php', 18)
+ 2 APPPATH\Views\templates\header.php(18): date_default_timezone_set('America / Argentina')
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\header.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/header', [], true)
+ 6 APPPATH\Controllers\AdminController.php(72): view('templates/header', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->contactos()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 22:29:47 --> date_default_timezone_set(): Timezone ID 'America/Argentina/BuenosAires' is invalid
+in APPPATH\Views\templates\header.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'date_default_timezone_set(): Timezone ID \'America/Argentina/BuenosAires\' is invalid', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\header.php', 17)
+ 2 APPPATH\Views\templates\header.php(17): date_default_timezone_set('America/Argentina/BuenosAires')
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\header.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/header', [], true)
+ 6 APPPATH\Controllers\AdminController.php(72): view('templates/header', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->contactos()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 22:30:10 --> date_default_timezone_set(): Timezone ID 'America/Argentina/BuenosAires' is invalid
+in APPPATH\Views\templates\header.php on line 19.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'date_default_timezone_set(): Timezone ID \'America/Argentina/BuenosAires\' is invalid', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\header.php', 19)
+ 2 APPPATH\Views\templates\header.php(19): date_default_timezone_set('America/Argentina/BuenosAires')
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\header.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/header', [], true)
+ 6 APPPATH\Controllers\AdminController.php(72): view('templates/header', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->contactos()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 20:18:17 --> Undefined array key 0
+in APPPATH\Controllers\TiendaController.php on line 90.
+ 1 APPPATH\Controllers\TiendaController.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\TiendaController.php', 90)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->clasificar([])
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 21:13:09 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+in APPPATH\Views\templates\navbar.php on line 1.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-12 21:27:23 --> Undefined array key "id_producto"
+in APPPATH\Controllers\CarritoController.php on line 133.
+ 1 APPPATH\Controllers\CarritoController.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_producto"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\CarritoController.php', 133)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CarritoController->comprar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 21:28:11 --> Undefined array key "cantidad"
+in APPPATH\Controllers\CarritoController.php on line 135.
+ 1 APPPATH\Controllers\CarritoController.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cantidad"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\CarritoController.php', 135)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CarritoController->comprar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CarritoController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 21:36:04 --> Undefined array key "faltaStock"
+in APPPATH\Views\templates\navbar2.php on line 146.
+ 1 APPPATH\Views\templates\navbar2.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "faltaStock"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar2.php', 146)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar2.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/navbar2', [], true)
+ 5 APPPATH\Controllers\TiendaController.php(46): view('templates/navbar2')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 21:36:13 --> Undefined array key "faltaStock"
+in APPPATH\Views\templates\navbar2.php on line 146.
+ 1 APPPATH\Views\templates\navbar2.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "faltaStock"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar2.php', 146)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar2.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/navbar2', [], true)
+ 5 APPPATH\Controllers\Home.php(62): view('templates/navbar2')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-12 22:45:07 --> Undefined array key "id"
+in APPPATH\Views\pages\producto.php on line 23.
+ 1 APPPATH\Views\pages\producto.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\producto.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\producto.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/producto', [], true)
+ 5 APPPATH\Controllers\TiendaController.php(77): view('pages/producto')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->producto('12')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

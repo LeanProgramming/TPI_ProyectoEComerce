@@ -1,0 +1,397 @@
+CRITICAL - 2023-06-01 00:03:36 --> Undefined array key "usuario"
+in APPPATH\Controllers\UserController.php on line 100.
+ 1 APPPATH\Controllers\UserController.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "usuario"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\UserController.php', 100)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 00:04:46 --> Too few arguments to function CodeIgniter\BaseModel::findColumn(), 0 passed in C:\xampp\htdocs\proyecto_munoz_leandro\app\Controllers\UserController.php on line 96 and exactly 1 expected
+in SYSTEMPATH\BaseModel.php on line 582.
+ 1 APPPATH\Controllers\UserController.php(96): CodeIgniter\BaseModel->findColumn()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 00:06:52 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\UserController.php on line 100.
+ 1 APPPATH\Controllers\UserController.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\UserController.php', 100)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 00:10:28 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\UserController.php on line 98.
+ 1 APPPATH\Controllers\UserController.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\UserController.php', 98)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 00:10:52 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\UserController.php on line 110.
+ 1 APPPATH\Controllers\UserController.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\UserController.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 00:17:21 --> Constant expression contains invalid operations
+in APPPATH\Models\UsuarioModel.php on line 9.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-01 00:17:43 --> Constant expression contains invalid operations
+in APPPATH\Models\UsuarioModel.php on line 9.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-01 00:18:39 --> Call to a member function decrypt() on null
+in APPPATH\Models\UsuarioModel.php on line 87.
+ 1 SYSTEMPATH\BaseModel.php(1562): App\Models\UsuarioModel->dehashPassword([...])
+ 2 SYSTEMPATH\BaseModel.php(662): CodeIgniter\BaseModel->trigger('afterFind', [...])
+ 3 APPPATH\Controllers\UserController.php(96): CodeIgniter\BaseModel->first()
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 00:20:00 --> Encrypter needs a starter key.
+in SYSTEMPATH\Encryption\Encryption.php on line 124.
+ 1 SYSTEMPATH\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(242): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Models\UsuarioModel.php(83): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\BaseModel.php(1562): App\Models\UsuarioModel->dehashPassword([...])
+ 6 SYSTEMPATH\BaseModel.php(662): CodeIgniter\BaseModel->trigger('afterFind', [...])
+ 7 APPPATH\Controllers\UserController.php(96): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 00:47:19 --> Encrypter needs a starter key.
+in SYSTEMPATH\Encryption\Encryption.php on line 124.
+ 1 SYSTEMPATH\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(242): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Models\UsuarioModel.php(84): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\BaseModel.php(1562): App\Models\UsuarioModel->dehashPassword([...])
+ 6 SYSTEMPATH\BaseModel.php(662): CodeIgniter\BaseModel->trigger('afterFind', [...])
+ 7 APPPATH\Controllers\UserController.php(96): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 00:51:23 --> Encrypter needs a starter key.
+in SYSTEMPATH\Encryption\Encryption.php on line 124.
+ 1 SYSTEMPATH\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(242): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Models\UsuarioModel.php(85): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\BaseModel.php(1562): App\Models\UsuarioModel->dehashPassword([...])
+ 6 SYSTEMPATH\BaseModel.php(662): CodeIgniter\BaseModel->trigger('afterFind', [...])
+ 7 APPPATH\Controllers\UserController.php(96): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 00:51:29 --> Encrypter needs a starter key.
+in SYSTEMPATH\Encryption\Encryption.php on line 124.
+ 1 SYSTEMPATH\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(242): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Models\UsuarioModel.php(85): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\BaseModel.php(1562): App\Models\UsuarioModel->dehashPassword([...])
+ 6 SYSTEMPATH\BaseModel.php(662): CodeIgniter\BaseModel->trigger('afterFind', [...])
+ 7 APPPATH\Controllers\UserController.php(96): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 00:55:06 --> Encrypter needs a starter key.
+in SYSTEMPATH\Encryption\Encryption.php on line 124.
+ 1 SYSTEMPATH\Encryption\Encryption.php(124): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(242): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Models\UsuarioModel.php(112): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\BaseModel.php(1562): App\Models\UsuarioModel->dehashPassword([...])
+ 6 SYSTEMPATH\BaseModel.php(662): CodeIgniter\BaseModel->trigger('afterFind', [...])
+ 7 APPPATH\Controllers\UserController.php(96): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 01:13:26 --> Class "PasswordRule" not found
+in SYSTEMPATH\Validation\Validation.php on line 596.
+ 1 SYSTEMPATH\Validation\Validation.php(117): CodeIgniter\Validation\Validation->loadRuleSets()
+ 2 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 3 APPPATH\Controllers\UserController.php(118): CodeIgniter\Controller->validate([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 01:13:50 --> Class "Helpers\PasswordRule" not found
+in SYSTEMPATH\Validation\Validation.php on line 596.
+ 1 SYSTEMPATH\Validation\Validation.php(117): CodeIgniter\Validation\Validation->loadRuleSets()
+ 2 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 3 APPPATH\Controllers\UserController.php(118): CodeIgniter\Controller->validate([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 01:13:55 --> Class "App\Helpers\PasswordRule" not found
+in SYSTEMPATH\Validation\Validation.php on line 596.
+ 1 SYSTEMPATH\Validation\Validation.php(117): CodeIgniter\Validation\Validation->loadRuleSets()
+ 2 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 3 APPPATH\Controllers\UserController.php(118): CodeIgniter\Controller->validate([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 01:14:45 --> Class "App\Helpers\PasswordRule" not found
+in SYSTEMPATH\Validation\Validation.php on line 596.
+ 1 SYSTEMPATH\Validation\Validation.php(117): CodeIgniter\Validation\Validation->loadRuleSets()
+ 2 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 3 APPPATH\Controllers\UserController.php(118): CodeIgniter\Controller->validate([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 01:14:48 --> Class "App\Helpers\PasswordRule" not found
+in SYSTEMPATH\Validation\Validation.php on line 596.
+ 1 SYSTEMPATH\Validation\Validation.php(117): CodeIgniter\Validation\Validation->loadRuleSets()
+ 2 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 3 APPPATH\Controllers\UserController.php(118): CodeIgniter\Controller->validate([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 01:15:05 --> Class "App\Helpers\PasswordRule" not found
+in SYSTEMPATH\Validation\Validation.php on line 596.
+ 1 SYSTEMPATH\Validation\Validation.php(117): CodeIgniter\Validation\Validation->loadRuleSets()
+ 2 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 3 APPPATH\Controllers\UserController.php(118): CodeIgniter\Controller->validate([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 01:17:19 --> Class "App\Helpers\PasswordRule" not found
+in SYSTEMPATH\Validation\Validation.php on line 596.
+ 1 SYSTEMPATH\Validation\Validation.php(117): CodeIgniter\Validation\Validation->loadRuleSets()
+ 2 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 3 APPPATH\Controllers\UserController.php(118): CodeIgniter\Controller->validate([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 01:18:06 --> Class "App\Helpers\PasswordRule" not found
+in SYSTEMPATH\Validation\Validation.php on line 596.
+ 1 SYSTEMPATH\Validation\Validation.php(117): CodeIgniter\Validation\Validation->loadRuleSets()
+ 2 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 3 APPPATH\Controllers\UserController.php(118): CodeIgniter\Controller->validate([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 01:18:29 --> Class "CodeIgniter\App\Helpers\PasswordRules" not found
+in SYSTEMPATH\Validation\Validation.php on line 596.
+ 1 SYSTEMPATH\Validation\Validation.php(117): CodeIgniter\Validation\Validation->loadRuleSets()
+ 2 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 3 APPPATH\Controllers\UserController.php(118): CodeIgniter\Controller->validate([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 01:18:41 --> syntax error, unexpected token "."
+in APPPATH\Config\Validation.php on line 10.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Config\\Validation.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Validation')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Validation')
+ 4 SYSTEMPATH\Config\Factories.php(155): class_exists('Config\\Validation')
+ 5 SYSTEMPATH\Config\Factories.php(125): CodeIgniter\Config\Factories::locateClass([...], 'Validation')
+ 6 SYSTEMPATH\Common.php(216): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 7 SYSTEMPATH\Config\Services.php(753): config('Validation')
+ 8 SYSTEMPATH\Config\BaseService.php(252): CodeIgniter\Config\Services::validation(null, false)
+ 9 SYSTEMPATH\BaseModel.php(332): CodeIgniter\Config\BaseService::__callStatic('validation', [...])
+10 SYSTEMPATH\Model.php(159): CodeIgniter\BaseModel->__construct(null)
+11 APPPATH\Controllers\UserController.php(21): CodeIgniter\Model->__construct()
+12 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\UserController->__construct()
+13 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+14 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 01:18:49 --> Class "Helpers\PasswordRules" not found
+in SYSTEMPATH\Validation\Validation.php on line 596.
+ 1 SYSTEMPATH\Validation\Validation.php(117): CodeIgniter\Validation\Validation->loadRuleSets()
+ 2 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 3 APPPATH\Controllers\UserController.php(118): CodeIgniter\Controller->validate([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 01:19:24 --> Class "App\Config\Helpers\PasswordRules" not found
+in SYSTEMPATH\Validation\Validation.php on line 596.
+ 1 SYSTEMPATH\Validation\Validation.php(117): CodeIgniter\Validation\Validation->loadRuleSets()
+ 2 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 3 APPPATH\Controllers\UserController.php(118): CodeIgniter\Controller->validate([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 01:20:26 --> Class "CodeIgniter\Config\Helpers\PasswordRules" not found
+in SYSTEMPATH\Validation\Validation.php on line 596.
+ 1 SYSTEMPATH\Validation\Validation.php(117): CodeIgniter\Validation\Validation->loadRuleSets()
+ 2 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 3 APPPATH\Controllers\UserController.php(118): CodeIgniter\Controller->validate([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 01:21:07 --> Class "App\Helpers\PasswordRule\PasswordRules" not found
+in SYSTEMPATH\Validation\Validation.php on line 596.
+ 1 SYSTEMPATH\Validation\Validation.php(117): CodeIgniter\Validation\Validation->loadRuleSets()
+ 2 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 3 APPPATH\Controllers\UserController.php(118): CodeIgniter\Controller->validate([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 01:21:18 --> Class "App\Helpers\PasswordRule\PasswordRules\PasswordRules" not found
+in SYSTEMPATH\Validation\Validation.php on line 596.
+ 1 SYSTEMPATH\Validation\Validation.php(117): CodeIgniter\Validation\Validation->loadRuleSets()
+ 2 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 3 APPPATH\Controllers\UserController.php(118): CodeIgniter\Controller->validate([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 01:21:40 --> Class "App\Helpers\PasswordRule\PasswordRules" not found
+in SYSTEMPATH\Validation\Validation.php on line 596.
+ 1 SYSTEMPATH\Validation\Validation.php(117): CodeIgniter\Validation\Validation->loadRuleSets()
+ 2 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 3 APPPATH\Controllers\UserController.php(118): CodeIgniter\Controller->validate([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 01:21:45 --> Class "App\Helpers\PasswordRule\PasswordRules" not found
+in SYSTEMPATH\Validation\Validation.php on line 596.
+ 1 SYSTEMPATH\Validation\Validation.php(117): CodeIgniter\Validation\Validation->loadRuleSets()
+ 2 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 3 APPPATH\Controllers\UserController.php(118): CodeIgniter\Controller->validate([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 01:21:54 --> Class "App\Helpers\PasswordRules" not found
+in SYSTEMPATH\Validation\Validation.php on line 596.
+ 1 SYSTEMPATH\Validation\Validation.php(117): CodeIgniter\Validation\Validation->loadRuleSets()
+ 2 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 3 APPPATH\Controllers\UserController.php(118): CodeIgniter\Controller->validate([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 01:22:03 --> Class "App\Helpers\PasswordRules" not found
+in SYSTEMPATH\Validation\Validation.php on line 596.
+ 1 SYSTEMPATH\Validation\Validation.php(117): CodeIgniter\Validation\Validation->loadRuleSets()
+ 2 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 3 APPPATH\Controllers\UserController.php(118): CodeIgniter\Controller->validate([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 01:35:10 --> "check_pass" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 320.
+ 1 SYSTEMPATH\Validation\Validation.php(320): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('check_pass')
+ 2 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('pass', 'pass', '1234567', [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\UserController.php(114): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 01:49:46 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Database\BaseResult.php on line 382.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-01 02:14:08 --> strpos(): Argument #3 ($offset) must be contained in argument #1 ($haystack)
+in SYSTEMPATH\Validation\Validation.php on line 812.
+ 1 SYSTEMPATH\Validation\Validation.php(812): strpos('required|check_pass[$2y$10$w26wvyg8AHr3E5HIlsrC3OLXemLWwveCQAiES2P2EuX', '|', 71)
+ 2 SYSTEMPATH\Validation\Validation.php(140): CodeIgniter\Validation\Validation->splitRules([...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\UserController.php(114): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 02:14:30 --> App\Validations\CustomRules::check_pass(): Argument #3 ($error) must be of type ?string, array given, called in C:\xampp\htdocs\proyecto_munoz_leandro\system\Validation\Validation.php on line 312
+in APPPATH\Validations\CustomRules.php on line 7.
+ 1 SYSTEMPATH\Validation\Validation.php(312): App\Validations\CustomRules->check_pass('123456', '$2y$10$w26wvyg8AHr3E5HIlsrC3OLXemLWwveCQAiES2P2EuX', [...], null, 'pass')
+ 2 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('pass', 'pass', '123456', [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\UserController.php(114): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 02:15:14 --> App\Validations\CustomRules::check_pass(): Argument #3 ($error) must be of type ?string, array given, called in C:\xampp\htdocs\proyecto_munoz_leandro\system\Validation\Validation.php on line 312
+in APPPATH\Validations\CustomRules.php on line 7.
+ 1 SYSTEMPATH\Validation\Validation.php(312): App\Validations\CustomRules->check_pass('123456', '$2y$10$w26wvyg8AHr3E5HIlsrC3OLXemLWwveCQAiES2P2EuX', [...], null, 'pass')
+ 2 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('pass', 'pass', '123456', [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\UserController.php(114): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 02:15:54 --> App\Validations\CustomRules::check_pass(): Argument #3 ($error) must be of type ?string, array given, called in C:\xampp\htdocs\proyecto_munoz_leandro\system\Validation\Validation.php on line 312
+in APPPATH\Validations\CustomRules.php on line 7.
+ 1 SYSTEMPATH\Validation\Validation.php(312): App\Validations\CustomRules->check_pass('123456', '', [...], null, 'pass')
+ 2 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('pass', 'pass', '123456', [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\UserController.php(114): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 02:16:07 --> App\Validations\CustomRules::check_pass(): Argument #3 ($error) must be of type ?string, array given, called in C:\xampp\htdocs\proyecto_munoz_leandro\system\Validation\Validation.php on line 312
+in APPPATH\Validations\CustomRules.php on line 7.
+ 1 SYSTEMPATH\Validation\Validation.php(312): App\Validations\CustomRules->check_pass('123456', '1234567', [...], null, 'pass')
+ 2 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('pass', 'pass', '123456', [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\UserController.php(114): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 02:16:39 --> App\Validations\CustomRules::check_pass(): Argument #3 ($error) must be of type ?string, array given, called in C:\xampp\htdocs\proyecto_munoz_leandro\system\Validation\Validation.php on line 312
+in APPPATH\Validations\CustomRules.php on line 7.
+ 1 SYSTEMPATH\Validation\Validation.php(312): App\Validations\CustomRules->check_pass('123456', '1234567', [...], null, 'pass')
+ 2 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('pass', 'pass', '123456', [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\UserController.php(114): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 02:28:35 --> App\Validations\CustomRules::check_pass(): Argument #2 ($hash) must be of type string, null given, called in C:\xampp\htdocs\proyecto_munoz_leandro\system\Validation\Validation.php on line 311
+in APPPATH\Validations\CustomRules.php on line 7.
+ 1 SYSTEMPATH\Validation\Validation.php(311): App\Validations\CustomRules->check_pass('12345678', null)
+ 2 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('pass', 'pass', '12345678', [...], [...])
+ 3 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\UserController.php(114): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->login()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 02:37:35 --> The route for "http://localhost/proyecto_munoz_leandro/" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost/proyecto_munoz_leandro/')
+ 2 SYSTEMPATH\Common.php(880): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\UserController.php(145): redirect('http://localhost/proyecto_munoz_leandro/')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->logout()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-01 02:50:50 --> Undefined array key "carrito"
+in APPPATH\Views\templates\navbar2.php on line 100.
+ 1 APPPATH\Views\templates\navbar2.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "carrito"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar2.php', 100)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar2.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/navbar2', [], true)
+ 5 APPPATH\Controllers\TiendaController.php(46): view('templates/navbar2')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

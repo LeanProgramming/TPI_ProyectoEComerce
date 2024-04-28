@@ -1,0 +1,52 @@
+CRITICAL - 2023-05-17 13:02:09 --> Too few arguments to function App\Controllers\UserController::registrar(), 0 passed in C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\UserController.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->registrar()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 13:12:37 --> Invalid file: "page/registrar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('page/registrar.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('page/registrar', [], true)
+ 3 APPPATH\Controllers\UserController.php(19): view('page/registrar')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 13:12:48 --> Undefined variable $provincias
+in APPPATH\Views\pages\registrar.php on line 35.
+ 1 APPPATH\Views\pages\registrar.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $provincias', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\registrar.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\registrar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/registrar', [], true)
+ 5 APPPATH\Controllers\UserController.php(19): view('pages/registrar')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 13:14:12 --> Undefined variable $titulo
+in APPPATH\Views\templates\header.php on line 16.
+ 1 APPPATH\Views\templates\header.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titulo', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\header.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/header', [], true)
+ 5 APPPATH\Controllers\UserController.php(19): view('templates/header')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 21:12:53 --> Invalid file: "pages/registar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/registar.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/registar', [], true)
+ 3 APPPATH\Controllers\UserController.php(16): view('pages/registar')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->registrar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-17 21:30:22 --> Class "App\Models\UsuarioModel" not found
+in APPPATH\Controllers\UserController.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->nuevoUsuario()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

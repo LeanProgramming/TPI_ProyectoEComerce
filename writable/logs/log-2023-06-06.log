@@ -1,0 +1,323 @@
+CRITICAL - 2023-06-06 23:08:49 --> Undefined array key "id_clasificacion"
+in APPPATH\Controllers\TiendaController.php on line 83.
+ 1 APPPATH\Controllers\TiendaController.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_clasificacion"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\TiendaController.php', 83)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->buscar('notebooks')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 23:17:05 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\TiendaController.php on line 93.
+ 1 APPPATH\Controllers\TiendaController.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\TiendaController.php', 93)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->buscar('notebooks')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 23:17:44 --> Undefined array key "id_clasificacion"
+in APPPATH\Controllers\TiendaController.php on line 89.
+ 1 APPPATH\Controllers\TiendaController.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_clasificacion"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\TiendaController.php', 89)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->buscar('notebooks')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 23:17:54 --> Undefined array key "nombre"
+in APPPATH\Controllers\TiendaController.php on line 93.
+ 1 APPPATH\Controllers\TiendaController.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\TiendaController.php', 93)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->buscar('notebooks')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 23:18:07 --> Undefined array key 0
+in APPPATH\Controllers\TiendaController.php on line 93.
+ 1 APPPATH\Controllers\TiendaController.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\TiendaController.php', 93)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->buscar('notebooks')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 23:18:22 --> Undefined array key 0
+in APPPATH\Controllers\TiendaController.php on line 93.
+ 1 APPPATH\Controllers\TiendaController.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\TiendaController.php', 93)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->buscar('notebooks')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-06 23:35:21 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0: ESCAPE '!'
+AND  1 LIKE :1: ESCAPE '!'' at line 5 in C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_munoz_leandro\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_munoz_leandro\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_munoz_leandro\app\Controllers\TiendaController.php(83): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(934): App\Controllers\TiendaController->buscar('notebooks')
+#8 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+#9 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_munoz_leandro\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-06 23:35:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':0: ESCAPE '!'
+AND  1 LIKE :1: ESCAPE '!'' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `productos`
+JOIN `clasificacion` ON `tipo1` = `id_clasificacion`
+JOIN `subclasificacion` ON `tipo2` = `id_subclasif`
+WHERE 0 LIKE :0: ESCAPE \'!\'
+AND  1 LIKE :1: ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `productos`
+JOIN `clasificacion` ON `tipo1` = `id_clasificacion`
+JOIN `subclasificacion` ON `tipo2` = `id_subclasif`
+WHERE 0 LIKE :0: ESCAPE \'!\'
+AND  1 LIKE :1: ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `productos`
+JOIN `clasificacion` ON `tipo1` = `id_clasificacion`
+JOIN `subclasificacion` ON `tipo2` = `id_subclasif`
+WHERE 0 LIKE :0: ESCAPE \'!\'
+AND  1 LIKE :1: ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `productos`
+JOIN `clasificacion` ON `tipo1` = `id_clasificacion`
+JOIN `subclasificacion` ON `tipo2` = `id_subclasif`
+WHERE 0 LIKE :0: ESCAPE \'!\'
+AND  1 LIKE :1: ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\TiendaController.php(83): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->buscar('notebooks')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 23:38:00 --> Undefined array key "nombre"
+in APPPATH\Views\templates\navbar2.php on line 24.
+ 1 APPPATH\Views\templates\navbar2.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar2.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar2.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/navbar2', [], true)
+ 5 APPPATH\Controllers\TiendaController.php(96): view('templates/navbar2')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->buscar('notebooks')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 23:38:43 --> Undefined array key "nombre"
+in APPPATH\Views\templates\navbar2.php on line 29.
+ 1 APPPATH\Views\templates\navbar2.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar2.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar2.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/navbar2', [], true)
+ 5 APPPATH\Controllers\TiendaController.php(96): view('templates/navbar2')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->buscar('notebooks')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 23:39:48 --> Undefined array key "nombre"
+in APPPATH\Views\pages\tienda.php on line 8.
+ 1 APPPATH\Views\pages\tienda.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\tienda.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\pages\\tienda.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pages/tienda', [], true)
+ 5 APPPATH\Controllers\TiendaController.php(98): view('pages/tienda')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->buscar('notebooks')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 23:48:52 --> Undefined variable $clasificaciones
+in APPPATH\Views\templates\navbar2.php on line 22.
+ 1 APPPATH\Views\templates\navbar2.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clasificaciones', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar2.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Views\\templates\\navbar2.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('templates/navbar2', [], true)
+ 5 APPPATH\Controllers\TiendaController.php(112): view('templates/navbar2')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->clasificar('Perifericos')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-06 23:49:27 --> mysqli_sql_exception: Unknown column 'subclasif' in 'where clause' in C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_munoz_leandro\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_munoz_leandro\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_munoz_leandro\app\Controllers\TiendaController.php(96): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(934): App\Controllers\TiendaController->clasificar('Notebooks')
+#8 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+#9 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_munoz_leandro\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-06 23:49:27 --> Unknown column 'subclasif' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `productos`
+WHERE `subclasif` LIKE \'%Notebooks%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `productos`
+WHERE `subclasif` LIKE \'%Notebooks%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `productos`
+WHERE `subclasif` LIKE \'%Notebooks%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `productos`
+WHERE `subclasif` LIKE :subclasif: ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\TiendaController.php(96): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->clasificar('Notebooks')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-06 23:50:11 --> mysqli_sql_exception: Unknown column 'subclasif' in 'where clause' in C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_munoz_leandro\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_munoz_leandro\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_munoz_leandro\app\Controllers\TiendaController.php(96): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(934): App\Controllers\TiendaController->clasificar('Notebooks')
+#8 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+#9 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_munoz_leandro\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-06 23:50:11 --> Unknown column 'subclasif' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `productos`
+WHERE `subclasif` LIKE \'%Notebooks%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `productos`
+WHERE `subclasif` LIKE \'%Notebooks%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `productos`
+WHERE `subclasif` LIKE \'%Notebooks%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `productos`
+WHERE `subclasif` LIKE :subclasif: ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\TiendaController.php(96): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->clasificar('Notebooks')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 23:53:00 --> syntax error, unexpected token "*"
+in APPPATH\Controllers\TiendaController.php on line 114.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\TiendaController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\TiendaController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\TiendaController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\TiendaController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 23:53:34 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::like()
+in APPPATH\Controllers\TiendaController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->clasificar('Notebooks')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 23:53:53 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::like()
+in APPPATH\Controllers\TiendaController.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->clasificar('Notebooks')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-06 23:53:59 --> mysqli_sql_exception: Unknown column 'subclasif' in 'where clause' in C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_munoz_leandro\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_munoz_leandro\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_munoz_leandro\app\Controllers\TiendaController.php(84): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(934): App\Controllers\TiendaController->clasificar('Notebooks')
+#8 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+#9 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_munoz_leandro\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-06 23:53:59 --> Unknown column 'subclasif' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `productos`
+WHERE `subclasif` LIKE \'%Notebooks%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `productos`
+WHERE `subclasif` LIKE \'%Notebooks%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `productos`
+WHERE `subclasif` LIKE \'%Notebooks%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `productos`
+WHERE `subclasif` LIKE :subclasif: ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\TiendaController.php(84): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->clasificar('Notebooks')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-06 23:55:37 --> mysqli_sql_exception: Unknown column 'subclasif' in 'where clause' in C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\proyecto_munoz_leandro\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\proyecto_munoz_leandro\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\proyecto_munoz_leandro\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\proyecto_munoz_leandro\app\Controllers\TiendaController.php(95): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(934): App\Controllers\TiendaController->clasificar('Notebooks')
+#8 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+#9 C:\xampp\htdocs\proyecto_munoz_leandro\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\proyecto_munoz_leandro\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-06-06 23:55:37 --> Unknown column 'subclasif' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `productos`
+JOIN `clasificacion` ON `tipo1` = `id_clasificacion`
+WHERE `subclasif` LIKE \'%Notebooks%\' ESCAPE \'!\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `productos`
+JOIN `clasificacion` ON `tipo1` = `id_clasificacion`
+WHERE `subclasif` LIKE \'%Notebooks%\' ESCAPE \'!\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `productos`
+JOIN `clasificacion` ON `tipo1` = `id_clasificacion`
+WHERE `subclasif` LIKE \'%Notebooks%\' ESCAPE \'!\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `productos`
+JOIN `clasificacion` ON `tipo1` = `id_clasificacion`
+WHERE `subclasif` LIKE :subclasif: ESCAPE \'!\'', [...], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\TiendaController.php(95): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->clasificar('Notebooks')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 23:55:51 --> Undefined array key "clasif"
+in APPPATH\Controllers\TiendaController.php on line 98.
+ 1 APPPATH\Controllers\TiendaController.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "clasif"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\TiendaController.php', 98)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->clasificar('Notebooks')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 23:56:01 --> Undefined array key "clasif"
+in APPPATH\Controllers\TiendaController.php on line 98.
+ 1 APPPATH\Controllers\TiendaController.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "clasif"', 'C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\TiendaController.php', 98)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\TiendaController->clasificar('Notebooks')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TiendaController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 23:56:10 --> syntax error, unexpected identifier "sub", expecting ")"
+in APPPATH\Controllers\TiendaController.php on line 99.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\proyecto_munoz_leandro\\app\\Controllers\\TiendaController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\TiendaController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\TiendaController')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\TiendaController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
